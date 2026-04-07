@@ -81,6 +81,12 @@ try {
     if ($generated -notmatch '## 职场角色人格 Skill') {
         throw 'Generated README is missing the category heading.'
     }
+    if ($generated -match '## 维护方式') {
+        throw 'Generated README should not include the maintenance section.'
+    }
+    if ($generated -notmatch '## 补充说明') {
+        throw 'Generated README is missing the compact footer section.'
+    }
     if ($generated -notmatch '\| 项目 \| Star \| 简介 \|') {
         throw 'Generated README is missing the category table header.'
     }

@@ -26,10 +26,7 @@
 - [玄学人物 / 神秘人格 Skill](#玄学人物--神秘人格-skill)
 - [经典人格 / 自我镜像 Skill](#经典人格--自我镜像-skill)
 - [新收录 / 待观察](#新收录--待观察)
-- [维护方式](#维护方式)
-- [收录标准](#收录标准)
-- [投稿方式](#投稿方式)
-- [更新记录](./CHANGELOG.md)
+- [补充说明](#补充说明)
 - [免责声明](#免责声明)
 
 ## 收录范围 / 不收录范围
@@ -179,31 +176,11 @@
 | [AI Girlfriend](https://github.com/shooter89discoatoh/ai-girlfriend) | 2 | 偏虚拟伴侣方向的项目，和本库主轴相关，但人设边界还需要继续观察。 |
 | [GirlfriendGPT](https://github.com/wanpengxie/GirlfriendGPT) | 1 | 围绕 AI 女友体验的项目，题材贴近情绪消费，但形态更像通用陪伴应用。 |
 
-## 维护方式
+## 补充说明
 
-- 维护入口：条目数据统一维护在 `data/skills.json`。
-- 校验命令：修改数据后先运行 `powershell -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps1`。
-- 生成命令：数据变更后再运行 `powershell -ExecutionPolicy Bypass -File .\scripts\generate-readme.ps1` 重建首页。
-- 推荐项目：如果你只想推荐仓库，请直接使用 GitHub Issue 模板。
-- 直接投稿：如果你已经准备好字段和描述，可以直接提交 Pull Request。
-- 变更记录：重要目录调整和仓库维护更新记录在 `CHANGELOG.md`。
-
-## 收录标准
-
-- 只收 GitHub 上公开可访问、且具备明确人设或角色消费属性的项目。
-- 优先收录可直接安装、可直接体验、可明显看出人格视角的项目。
-- 允许少量人格化 AI repo 作为补充，但会显式标注为 `人格化Repo`。
-- 如项目仍在试验期、形态偏宽或边界模糊，可先进入 `新收录 / 待观察`。
-
-## 投稿方式
-
-欢迎通过 Issue 推荐项目，或通过 Pull Request 直接补充新条目。投稿前请先：
-
-如果只是推荐项目，请使用 GitHub 的 `推荐新条目` Issue 模板。
-
-1. 按 `CONTRIBUTING.md` 补齐字段。
-2. 运行 `powershell -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps1`。
-3. 如需重建首页，运行 `powershell -ExecutionPolicy Bypass -File .\scripts\generate-readme.ps1`。
+- 本库优先收录具有人设、角色感、数字分身或玄学娱乐属性的 GitHub 项目，少量人格化 AI Repo 作为补充。
+- 推荐项目请提 Issue，直接补充条目请提交 Pull Request，细则见 `CONTRIBUTING.md`。
+- 维护和目录变更记录见 `CHANGELOG.md`。
 
 ## 免责声明
 
