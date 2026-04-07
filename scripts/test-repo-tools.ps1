@@ -81,6 +81,18 @@ try {
     if ($generated -notmatch '## 职场角色人格 Skill') {
         throw 'Generated README is missing the category heading.'
     }
+    if ($generated -notmatch '\| 项目 \| 类型 \| 标签 \| Stars \| 一句话说明 \|') {
+        throw 'Generated README is missing the category table header.'
+    }
+    if ($generated -notmatch '\| \[测试老板\.skill\]\(https://github\.com/example/test-boss-skill\) \| 标准Skill \|') {
+        throw 'Generated README is missing the category table row.'
+    }
+    if ($generated -notmatch '(?m)^- \[测试老板\.skill\]\(https://github\.com/example/test-boss-skill\)') {
+        throw 'Generated README is missing the featured list item.'
+    }
+    if ($generated -notmatch '标签：`角色` `职场` \| Stars：12') {
+        throw 'Generated README should keep featured entries in list format.'
+    }
 
     Write-Host 'All repository tool tests passed.' -ForegroundColor Green
     exit 0

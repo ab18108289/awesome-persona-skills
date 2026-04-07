@@ -84,237 +84,108 @@
 
 围绕中文互联网博主、创作者与高辨识度内容人格的项目。
 
-- [花叔 Skills 合集](https://github.com/alchaincyf/huashu-skills) `人格化Repo` `活跃`
-  围绕花叔内容创作方法和表达风格整理的 Skills 合集，适合内容选题、脚本和表达风格参考。
-  标签：`博主` `内容创作` `中文圈` | Stars：99
-
-- [宝玉 Skills 合集](https://github.com/JimLiu/baoyu-skills) `人格化Repo` `活跃`
-  以宝玉个人工作流和内容产出为核心的技能集合，适合观察强个人品牌型 Skill 仓库如何组织。
-  标签：`博主` `创作者` `技能合集` | Stars：13490
-
-- [Auto Redbook Skills](https://github.com/comeonzhj/Auto-Redbook-Skills) `人格化Repo` `活跃`
-  围绕小红书笔记自动撰写、配图和发布的 Skills 项目，适合作为创作者内容工作流方向样本。
-  标签：`小红书` `创作者` `内容工作流` | Stars：1575
-
-- [小红书运营助手.skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill) `标准Skill` `活跃`
-  把 OpenClaw 变成小红书运营助手，适合选题、创作、复盘和博主内容托管方向。
-  标签：`小红书` `博主` `运营` | Stars：1419
-
-- [MrBeast.skill](https://github.com/alchaincyf/mrbeast-skill) `标准Skill` `活跃`
-  围绕 MrBeast 内容创造方法论生成的 Skill，适合作为国际知名创作者类样本补充。
-  标签：`博主` `创作者` `海外` | Stars：0
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [花叔 Skills 合集](https://github.com/alchaincyf/huashu-skills) | 人格化Repo | `博主` `内容创作` `中文圈` | 99 | 围绕花叔内容创作方法和表达风格整理的 Skills 合集，适合内容选题、脚本和表达风格参考。 |
+| [宝玉 Skills 合集](https://github.com/JimLiu/baoyu-skills) | 人格化Repo | `博主` `创作者` `技能合集` | 13490 | 以宝玉个人工作流和内容产出为核心的技能集合，适合观察强个人品牌型 Skill 仓库如何组织。 |
+| [Auto Redbook Skills](https://github.com/comeonzhj/Auto-Redbook-Skills) | 人格化Repo | `小红书` `创作者` `内容工作流` | 1575 | 围绕小红书笔记自动撰写、配图和发布的 Skills 项目，适合作为创作者内容工作流方向样本。 |
+| [小红书运营助手.skill](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill) | 标准Skill | `小红书` `博主` `运营` | 1419 | 把 OpenClaw 变成小红书运营助手，适合选题、创作、复盘和博主内容托管方向。 |
+| [MrBeast.skill](https://github.com/alchaincyf/mrbeast-skill) | 标准Skill | `博主` `创作者` `海外` | 0 | 围绕 MrBeast 内容创造方法论生成的 Skill，适合作为国际知名创作者类样本补充。 |
 
 ## 商业人物 / 创业者 Skill
 
 围绕创业者、投资人、产品人和商业判断框架的人设型项目。
 
-- [芒格.skill](https://github.com/alchaincyf/munger-skill) `标准Skill` `活跃`
-  把查理·芒格的多元思维模型做成可调用 Skill，适合做商业判断和逆向思考练习。
-  标签：`投资` `商业` `心智模型` | Stars：20
-
-- [Skill from Masters](https://github.com/GBSOSS/skill-from-masters) `人格化Repo` `活跃`
-  把多位领域大师的方法论抽象成可复用 Skill，适合做大师方法论目录的补充入口。
-  标签：`大师` `方法论` `框架` | Stars：1351
-
-- [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) `标准Skill` `活跃`
-  用乔布斯的产品判断、聚焦和表达方式来审视问题，适合产品定位和叙事打磨。
-  标签：`产品` `创业` `表达` | Stars：498
-
-- [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) `标准Skill` `活跃`
-  把 Naval Ravikant 的杠杆、具体知识和长期主义框架做成 Skill，适合独立开发和创业思考。
-  标签：`创业` `投资` `独立开发` | Stars：20
-
-- [Paul Graham.skill](https://github.com/alchaincyf/paul-graham-skill) `标准Skill` `活跃`
-  围绕 Paul Graham 的创业写作和判断框架整理的 Skill，适合创业早期问题拆解。
-  标签：`创业` `写作` `判断` | Stars：2
-
-- [Karpathy.skill](https://github.com/alchaincyf/karpathy-skill) `标准Skill` `活跃`
-  围绕 Andrej Karpathy 的技术判断和表达习惯生成的 Skill，适合 AI 工程和研究型思考。
-  标签：`AI` `工程` `研究` | Stars：1
-
-- [智者议会](https://github.com/linxumoney/wisdom-council) `人格化Repo` `活跃`
-  把巴菲特、芒格、Naval 等多个商业人物做成辩论式智囊团，适合多视角对照思考。
-  标签：`巴菲特` `芒格` `多角色` | Stars：1
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [芒格.skill](https://github.com/alchaincyf/munger-skill) | 标准Skill | `投资` `商业` `心智模型` | 20 | 把查理·芒格的多元思维模型做成可调用 Skill，适合做商业判断和逆向思考练习。 |
+| [Skill from Masters](https://github.com/GBSOSS/skill-from-masters) | 人格化Repo | `大师` `方法论` `框架` | 1351 | 把多位领域大师的方法论抽象成可复用 Skill，适合做大师方法论目录的补充入口。 |
+| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) | 标准Skill | `产品` `创业` `表达` | 498 | 用乔布斯的产品判断、聚焦和表达方式来审视问题，适合产品定位和叙事打磨。 |
+| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) | 标准Skill | `创业` `投资` `独立开发` | 20 | 把 Naval Ravikant 的杠杆、具体知识和长期主义框架做成 Skill，适合独立开发和创业思考。 |
+| [Paul Graham.skill](https://github.com/alchaincyf/paul-graham-skill) | 标准Skill | `创业` `写作` `判断` | 2 | 围绕 Paul Graham 的创业写作和判断框架整理的 Skill，适合创业早期问题拆解。 |
+| [Karpathy.skill](https://github.com/alchaincyf/karpathy-skill) | 标准Skill | `AI` `工程` `研究` | 1 | 围绕 Andrej Karpathy 的技术判断和表达习惯生成的 Skill，适合 AI 工程和研究型思考。 |
+| [智者议会](https://github.com/linxumoney/wisdom-council) | 人格化Repo | `巴菲特` `芒格` `多角色` | 1 | 把巴菲特、芒格、Naval 等多个商业人物做成辩论式智囊团，适合多视角对照思考。 |
 
 ## 教育 / 职业导师 Skill
 
 围绕教学、学习陪练、职业辅导与导师风格的人格化项目。
 
-- [费曼.skill](https://github.com/alchaincyf/feynman-skill) `标准Skill` `活跃`
-  围绕费曼式解释、拆解和实验精神构建的 Skill，适合学习和教学表达。
-  标签：`导师` `学习` `解释` | Stars：11
-
-- [GenMentor](https://github.com/GeminiLight/gen-mentor) `人格化Repo` `活跃`
-  以导师式多智能体辅学为核心的项目，适合观察 AI 导师和学习路径规划方向。
-  标签：`导师` `学习` `多智能体` | Stars：63
-
-- [豫唐教师助手](https://github.com/tcshowhand/teacher) `人格化Repo` `活跃`
-  面向教师备课和教案生成的中文项目，适合收录到职业导师与教师辅助方向。
-  标签：`教师` `教案` `备课` | Stars：21
-
-- [Socratic Tutor Generator](https://github.com/ElysiaFollower/socratic-agent-generator) `人格化Repo` `活跃`
-  把静态材料转成苏格拉底式 tutor 的项目，适合收录到导师型和学习陪练方向。
-  标签：`导师` `教学` `Socratic` | Stars：3
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [费曼.skill](https://github.com/alchaincyf/feynman-skill) | 标准Skill | `导师` `学习` `解释` | 11 | 围绕费曼式解释、拆解和实验精神构建的 Skill，适合学习和教学表达。 |
+| [GenMentor](https://github.com/GeminiLight/gen-mentor) | 人格化Repo | `导师` `学习` `多智能体` | 63 | 以导师式多智能体辅学为核心的项目，适合观察 AI 导师和学习路径规划方向。 |
+| [豫唐教师助手](https://github.com/tcshowhand/teacher) | 人格化Repo | `教师` `教案` `备课` | 21 | 面向教师备课和教案生成的中文项目，适合收录到职业导师与教师辅助方向。 |
+| [Socratic Tutor Generator](https://github.com/ElysiaFollower/socratic-agent-generator) | 人格化Repo | `导师` `教学` `Socratic` | 3 | 把静态材料转成苏格拉底式 tutor 的项目，适合收录到导师型和学习陪练方向。 |
 
 ## 情感人物 / 关系人格 Skill
 
 围绕前任、恋爱陪伴、关系复盘与情绪消费的人设型项目。
 
-- [前任.skill](https://github.com/therealXiaomanChu/ex-skill) `标准Skill` `活跃`
-  把前任蒸馏成 AI Skill，用对方的语气、记忆和关系模式进行情感对话与复盘。
-  标签：`前任` `情感` `中文圈` | Stars：3260
-
-- [Super Agent Party](https://github.com/heshengtao/super-agent-party) `人格化Repo` `活跃`
-  主打全能 AI 伴侣和角色陪伴体验的自托管项目，适合作为情绪陪伴和 companion 方向样本。
-  标签：`AI伴侣` `陪伴` `自托管` | Stars：2066
-
-- [前任.skill Lite](https://github.com/titanwings/ex-skill) `标准Skill` `活跃`
-  偏数字永生叙事的前任 Skill 版本，适合观察同一题材在不同仓库中的实现差异。
-  标签：`前任` `数字永生` `关系` | Stars：777
-
-- [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) `人格化Repo` `活跃`
-  面向数字伴侣和角色陪伴的沉浸式项目，适合作为恋爱陪伴和二次元人格方向补充。
-  标签：`陪伴` `二次元` `角色扮演` | Stars：580
-
-- [前任.skill 多源版](https://github.com/perkfly/ex-skill) `标准Skill` `活跃`
-  支持更多聊天和社媒数据源的前任 Skill 版本，适合做多源蒸馏参考。
-  标签：`前任` `多源数据` `关系` | Stars：549
-
-- [恋恋恋爱插件](https://github.com/oyxning/astrbot-plugin-moremorelove) `人格化Repo` `活跃`
-  围绕恋爱 Galgame 角色“恋恋”的插件项目，适合情感陪伴和轻互动玩法方向。
-  标签：`恋爱` `Galgame` `陪伴` | Stars：9
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [前任.skill](https://github.com/therealXiaomanChu/ex-skill) | 标准Skill | `前任` `情感` `中文圈` | 3260 | 把前任蒸馏成 AI Skill，用对方的语气、记忆和关系模式进行情感对话与复盘。 |
+| [Super Agent Party](https://github.com/heshengtao/super-agent-party) | 人格化Repo | `AI伴侣` `陪伴` `自托管` | 2066 | 主打全能 AI 伴侣和角色陪伴体验的自托管项目，适合作为情绪陪伴和 companion 方向样本。 |
+| [前任.skill Lite](https://github.com/titanwings/ex-skill) | 标准Skill | `前任` `数字永生` `关系` | 777 | 偏数字永生叙事的前任 Skill 版本，适合观察同一题材在不同仓库中的实现差异。 |
+| [Soul of Waifu](https://github.com/jofizcd/Soul-of-Waifu) | 人格化Repo | `陪伴` `二次元` `角色扮演` | 580 | 面向数字伴侣和角色陪伴的沉浸式项目，适合作为恋爱陪伴和二次元人格方向补充。 |
+| [前任.skill 多源版](https://github.com/perkfly/ex-skill) | 标准Skill | `前任` `多源数据` `关系` | 549 | 支持更多聊天和社媒数据源的前任 Skill 版本，适合做多源蒸馏参考。 |
+| [恋恋恋爱插件](https://github.com/oyxning/astrbot-plugin-moremorelove) | 人格化Repo | `恋爱` `Galgame` `陪伴` | 9 | 围绕恋爱 Galgame 角色“恋恋”的插件项目，适合情感陪伴和轻互动玩法方向。 |
 
 ## 职场角色人格 Skill
 
 围绕老板、同事、CEO、面试官等工作场景角色的项目。
 
-- [同事.skill](https://github.com/titanwings/colleague-skill) `标准Skill` `活跃`
-  把离职同事蒸馏成可调用 Skill，兼顾工作风格、沟通习惯与知识传承。
-  标签：`同事` `职场` `知识传承` | Stars：9666
-
-- [老板.skill](https://github.com/nicepkg/boss-skill) `标准Skill` `活跃`
-  把老板蒸馏成 AI Skill，主打 PUA 检测、反击话术和劳动法辅助等职场场景。
-  标签：`老板` `职场` `反PUA` | Stars：55
-
-- [智能面试官](https://github.com/xgwangdl/AI-Interview) `人格化Repo` `活跃`
-  面向技术面试全流程的 AI 面试官系统，适合作为面试官人格和招聘场景入口。
-  标签：`面试官` `招聘` `技术面试` | Stars：198
-
-- [InterviewerGPT](https://github.com/shaokeyibb/InterviewerGPT) `人格化Repo` `活跃`
-  你的 AI 私人面试官，适合练习问答、模拟压力面和求职准备。
-  标签：`面试官` `求职` `练习` | Stars：43
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [同事.skill](https://github.com/titanwings/colleague-skill) | 标准Skill | `同事` `职场` `知识传承` | 9666 | 把离职同事蒸馏成可调用 Skill，兼顾工作风格、沟通习惯与知识传承。 |
+| [老板.skill](https://github.com/nicepkg/boss-skill) | 标准Skill | `老板` `职场` `反PUA` | 55 | 把老板蒸馏成 AI Skill，主打 PUA 检测、反击话术和劳动法辅助等职场场景。 |
+| [智能面试官](https://github.com/xgwangdl/AI-Interview) | 人格化Repo | `面试官` `招聘` `技术面试` | 198 | 面向技术面试全流程的 AI 面试官系统，适合作为面试官人格和招聘场景入口。 |
+| [InterviewerGPT](https://github.com/shaokeyibb/InterviewerGPT) | 人格化Repo | `面试官` `求职` `练习` | 43 | 你的 AI 私人面试官，适合练习问答、模拟压力面和求职准备。 |
 
 ## 玄学人物 / 神秘人格 Skill
 
 围绕命理、塔罗、周易、赛博半仙和神秘人格体验的项目。
 
-- [赛博算命.skill](https://github.com/jinchenma94/bazi-skill) `标准Skill` `活跃`
-  专业八字排盘与命理分析，适合做赛博命理咨询与传统文化体验。
-  标签：`玄学` `八字` `热门` | Stars：454
-
-- [月老·姻缘测算.skill](https://github.com/Ming-H/yinyuan-skills) `标准Skill` `活跃`
-  围绕姻缘、桃花与关系测算的角色化 Skill，适合情感咨询和玄学娱乐入口。
-  标签：`月老` `姻缘` `情感` | Stars：24
-
-- [天机阁](https://github.com/starloom/starloom) `人格化Repo` `活跃`
-  把占卜、命理和 AI 对话结合起来的综合系统，适合作为赛博解压和玄学娱乐方向样本。
-  标签：`玄学娱乐` `占卜` `系统` | Stars：291
-
-- [奇门遁甲、紫微斗数.skill](https://github.com/FANzR-arch/Numerologist_skills) `标准Skill` `活跃`
-  用工程框架固定奇门遁甲和紫微斗数流程，主打减少幻觉与排盘步骤可复核。
-  标签：`奇门遁甲` `紫微斗数` `防幻觉` | Stars：189
-
-- [大师.skill](https://github.com/xr843/Master-skill) `标准Skill` `活跃`
-  把汉传佛教祖师大德教学角色做成 Skill，适合高维建议和经典文献导向对话。
-  标签：`大师` `佛学` `人生建议` | Stars：128
-
-- [MingAI](https://github.com/hhszzzz/MingAI) `人格化Repo` `活跃`
-  涵盖八字、紫微斗数、奇门遁甲、塔罗等多种赛博玄学能力的综合型项目。
-  标签：`玄学` `综合算命` `MCP` | Stars：39
-
-- [周易排盘源码库](https://github.com/masterai-top/Zhouyi_Eight-Characters_Ziwei-Doushu_Qi-Zheng-Si-Yu_Qi-Men-Dun-Jia_Liu-Liu-Ren_Punishment-and-divina) `人格化Repo` `活跃`
-  围绕周易八卦、四柱八字、紫微斗数和奇门遁甲的源码库，适合作为硬核命理底层资料。
-  标签：`周易` `排盘` `源码` | Stars：32
-
-- [紫微知道](https://github.com/ruijayfeng/ziwei) `人格化Repo` `活跃`
-  围绕紫微斗数命盘和解读的开源项目，适合命盘类产品和工具型人格方向。
-  标签：`紫微斗数` `命盘` `解读` | Stars：16
-
-- [八字 Agent Skill](https://github.com/gaoxin492/bazi-skill) `标准Skill` `活跃`
-  偏工程化的八字计算 Skill，把排盘计算和解释流程拆开，适合做防幻觉命理工具参考。
-  标签：`玄学` `八字` `工程化` | Stars：9
-
-- [塔罗占卜.skill](https://github.com/daman-ovo-0404/tarot-skill) `标准Skill` `活跃`
-  围绕 78 张塔罗牌义和多种牌阵实现的 Agent Skill，适合塔罗娱乐和角色占卜场景。
-  标签：`塔罗` `牌阵` `占卜` | Stars：1
-
-- [AI算命占卜](https://github.com/rorojiao/fortune-tools) `人格化Repo` `活跃`
-  收录八字、塔罗、姓名测分等轻量玩法的 AI 算命项目，适合作为泛玄学补充入口。
-  标签：`算命` `塔罗` `轻量` | Stars：0
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [赛博算命.skill](https://github.com/jinchenma94/bazi-skill) | 标准Skill | `玄学` `八字` `热门` | 454 | 专业八字排盘与命理分析，适合做赛博命理咨询与传统文化体验。 |
+| [月老·姻缘测算.skill](https://github.com/Ming-H/yinyuan-skills) | 标准Skill | `月老` `姻缘` `情感` | 24 | 围绕姻缘、桃花与关系测算的角色化 Skill，适合情感咨询和玄学娱乐入口。 |
+| [天机阁](https://github.com/starloom/starloom) | 人格化Repo | `玄学娱乐` `占卜` `系统` | 291 | 把占卜、命理和 AI 对话结合起来的综合系统，适合作为赛博解压和玄学娱乐方向样本。 |
+| [奇门遁甲、紫微斗数.skill](https://github.com/FANzR-arch/Numerologist_skills) | 标准Skill | `奇门遁甲` `紫微斗数` `防幻觉` | 189 | 用工程框架固定奇门遁甲和紫微斗数流程，主打减少幻觉与排盘步骤可复核。 |
+| [大师.skill](https://github.com/xr843/Master-skill) | 标准Skill | `大师` `佛学` `人生建议` | 128 | 把汉传佛教祖师大德教学角色做成 Skill，适合高维建议和经典文献导向对话。 |
+| [MingAI](https://github.com/hhszzzz/MingAI) | 人格化Repo | `玄学` `综合算命` `MCP` | 39 | 涵盖八字、紫微斗数、奇门遁甲、塔罗等多种赛博玄学能力的综合型项目。 |
+| [周易排盘源码库](https://github.com/masterai-top/Zhouyi_Eight-Characters_Ziwei-Doushu_Qi-Zheng-Si-Yu_Qi-Men-Dun-Jia_Liu-Liu-Ren_Punishment-and-divina) | 人格化Repo | `周易` `排盘` `源码` | 32 | 围绕周易八卦、四柱八字、紫微斗数和奇门遁甲的源码库，适合作为硬核命理底层资料。 |
+| [紫微知道](https://github.com/ruijayfeng/ziwei) | 人格化Repo | `紫微斗数` `命盘` `解读` | 16 | 围绕紫微斗数命盘和解读的开源项目，适合命盘类产品和工具型人格方向。 |
+| [八字 Agent Skill](https://github.com/gaoxin492/bazi-skill) | 标准Skill | `玄学` `八字` `工程化` | 9 | 偏工程化的八字计算 Skill，把排盘计算和解释流程拆开，适合做防幻觉命理工具参考。 |
+| [塔罗占卜.skill](https://github.com/daman-ovo-0404/tarot-skill) | 标准Skill | `塔罗` `牌阵` `占卜` | 1 | 围绕 78 张塔罗牌义和多种牌阵实现的 Agent Skill，适合塔罗娱乐和角色占卜场景。 |
+| [AI算命占卜](https://github.com/rorojiao/fortune-tools) | 人格化Repo | `算命` `塔罗` `轻量` | 0 | 收录八字、塔罗、姓名测分等轻量玩法的 AI 算命项目，适合作为泛玄学补充入口。 |
 
 ## 经典人格 / 自我镜像 Skill
 
 围绕数字分身、自我镜像、人格框架和认知蒸馏的项目。
 
-- [女娲.skill](https://github.com/alchaincyf/nuwa-skill) `标准Skill` `活跃`
-  用于蒸馏他人认知操作系统的元 Skill，适合作为人格蒸馏生态的核心入口。
-  标签：`人格蒸馏` `认知框架` `元Skill` | Stars：2224
-
-- [自己.skill](https://github.com/notdog1998/yourself-skill) `标准Skill` `活跃`
-  主打把自己蒸馏成数字分身的 Skill，适合做自我镜像、记忆归档和长期陪伴。
-  标签：`自己` `数字分身` `镜像` | Stars：999
-
-- [Second Me](https://github.com/Mindverse/Second-Me) `人格化Repo` `活跃`
-  面向“训练 AI 自己”的高热度项目，适合作为自我镜像和数字身份方向的重要样本。
-  标签：`数字自我` `记忆` `AI Self` | Stars：15423
-
-- [数字永生框架](https://github.com/agenmod/immortal-skill) `人格化Repo` `活跃`
-  支持多平台数据蒸馏的数字永生框架，适合观察人格蒸馏从单人到任意人物的扩展方向。
-  标签：`数字永生` `人格蒸馏` `多平台` | Stars：311
-
-- [EdgePersona](https://github.com/zc-maker/EdgePersona) `人格化Repo` `活跃`
-  强调全本地、低算力和离线运行的智能数字人项目，适合作为本地人格化方向样本。
-  标签：`数字人` `本地化` `离线` | Stars：78
-
-- [Qing Digital Self](https://github.com/qqqqqf-q/Qing-Digital-Self) `人格化Repo` `活跃`
-  从对话数据到训练闭环的数字分身项目，适合作为镜像人格训练路线样本。
-  标签：`数字分身` `训练` `数据闭环` | Stars：63
-
-- [OpenPersona](https://github.com/ACNet-AI/OpenPersona) `人格化Repo` `活跃`
-  四层 AI Persona 框架，适合作为人格化项目的结构化参考样本。
-  标签：`Persona` `框架` `多层结构` | Stars：13
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [女娲.skill](https://github.com/alchaincyf/nuwa-skill) | 标准Skill | `人格蒸馏` `认知框架` `元Skill` | 2224 | 用于蒸馏他人认知操作系统的元 Skill，适合作为人格蒸馏生态的核心入口。 |
+| [自己.skill](https://github.com/notdog1998/yourself-skill) | 标准Skill | `自己` `数字分身` `镜像` | 999 | 主打把自己蒸馏成数字分身的 Skill，适合做自我镜像、记忆归档和长期陪伴。 |
+| [Second Me](https://github.com/Mindverse/Second-Me) | 人格化Repo | `数字自我` `记忆` `AI Self` | 15423 | 面向“训练 AI 自己”的高热度项目，适合作为自我镜像和数字身份方向的重要样本。 |
+| [数字永生框架](https://github.com/agenmod/immortal-skill) | 人格化Repo | `数字永生` `人格蒸馏` `多平台` | 311 | 支持多平台数据蒸馏的数字永生框架，适合观察人格蒸馏从单人到任意人物的扩展方向。 |
+| [EdgePersona](https://github.com/zc-maker/EdgePersona) | 人格化Repo | `数字人` `本地化` `离线` | 78 | 强调全本地、低算力和离线运行的智能数字人项目，适合作为本地人格化方向样本。 |
+| [Qing Digital Self](https://github.com/qqqqqf-q/Qing-Digital-Self) | 人格化Repo | `数字分身` `训练` `数据闭环` | 63 | 从对话数据到训练闭环的数字分身项目，适合作为镜像人格训练路线样本。 |
+| [OpenPersona](https://github.com/ACNet-AI/OpenPersona) | 人格化Repo | `Persona` `框架` `多层结构` | 13 | 四层 AI Persona 框架，适合作为人格化项目的结构化参考样本。 |
 
 ## 新收录 / 待观察
 
 题材贴题但仍需继续观察形态、质量或长期维护状态的项目。
 
-- [户晨风内容库](https://github.com/Olcmyk/HuChenFeng) `待观察` `观察中`
-  围绕户晨风内容资料的收集仓库，题材贴近现实主义博主人格，但仍偏资料整理形态。
-  标签：`博主` `现实主义` `待观察` | Stars：1545
-
-- [CEO Skill 集合](https://github.com/guo-yu/skills) `待观察` `观察中`
-  包含 ceo-skill 等条目的技能集合仓库，和职场角色方向相关，但整体仍偏工具合集。
-  标签：`CEO` `技能合集` `待观察` | Stars：235
-
-- [TeacherGPT](https://github.com/Cyber-Gwen/TeacherGPT) `待观察` `观察中`
-  用 prompt 生成不同学科教师人格的项目，方向贴题，但更接近 prompt persona 集合。
-  标签：`教师` `Prompt` `待观察` | Stars：30
-
-- [HER](https://github.com/cydu24/HER) `待观察` `观察中`
-  关注角色模拟与情绪推理的项目，偏框架研究路线，先收录到待观察区。
-  标签：`角色模拟` `情绪` `待观察` | Stars：12
-
-- [小红书大师.skill](https://github.com/OnePieceLwc/xiaohongshu-skill) `待观察` `观察中`
-  围绕小红书爆款文案和平台表达方式的 Skill 仓库，方向贴题，但当前仓库信息还偏少。
-  标签：`小红书` `文案` `待观察` | Stars：3
-
-- [AI Girlfriend](https://github.com/shooter89discoatoh/ai-girlfriend) `待观察` `观察中`
-  偏虚拟伴侣方向的项目，和本库主轴相关，但人设边界还需要继续观察。
-  标签：`AI女友` `虚拟伴侣` `待观察` | Stars：2
-
-- [GirlfriendGPT](https://github.com/wanpengxie/GirlfriendGPT) `待观察` `观察中`
-  围绕 AI 女友体验的项目，题材贴近情绪消费，但形态更像通用陪伴应用。
-  标签：`AI女友` `陪伴` `待观察` | Stars：1
+| 项目 | 类型 | 标签 | Stars | 一句话说明 |
+| --- | --- | --- | --- | --- |
+| [户晨风内容库](https://github.com/Olcmyk/HuChenFeng) | 待观察 / 观察中 | `博主` `现实主义` `待观察` | 1545 | 围绕户晨风内容资料的收集仓库，题材贴近现实主义博主人格，但仍偏资料整理形态。 |
+| [CEO Skill 集合](https://github.com/guo-yu/skills) | 待观察 / 观察中 | `CEO` `技能合集` `待观察` | 235 | 包含 ceo-skill 等条目的技能集合仓库，和职场角色方向相关，但整体仍偏工具合集。 |
+| [TeacherGPT](https://github.com/Cyber-Gwen/TeacherGPT) | 待观察 / 观察中 | `教师` `Prompt` `待观察` | 30 | 用 prompt 生成不同学科教师人格的项目，方向贴题，但更接近 prompt persona 集合。 |
+| [HER](https://github.com/cydu24/HER) | 待观察 / 观察中 | `角色模拟` `情绪` `待观察` | 12 | 关注角色模拟与情绪推理的项目，偏框架研究路线，先收录到待观察区。 |
+| [小红书大师.skill](https://github.com/OnePieceLwc/xiaohongshu-skill) | 待观察 / 观察中 | `小红书` `文案` `待观察` | 3 | 围绕小红书爆款文案和平台表达方式的 Skill 仓库，方向贴题，但当前仓库信息还偏少。 |
+| [AI Girlfriend](https://github.com/shooter89discoatoh/ai-girlfriend) | 待观察 / 观察中 | `AI女友` `虚拟伴侣` `待观察` | 2 | 偏虚拟伴侣方向的项目，和本库主轴相关，但人设边界还需要继续观察。 |
+| [GirlfriendGPT](https://github.com/wanpengxie/GirlfriendGPT) | 待观察 / 观察中 | `AI女友` `陪伴` `待观察` | 1 | 围绕 AI 女友体验的项目，题材贴近情绪消费，但形态更像通用陪伴应用。 |
 
 ## 维护方式
 

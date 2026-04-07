@@ -68,13 +68,33 @@ function Get-StarText {
     return [string]$Stars
 }
 
-function Format-Entry {
+function Get-CompactTags {
+    param($Tags)
+
+    $tagItems = @($Tags) | Select-Object -First 3
+    if ($tagItems.Count -eq 0) {
+        return '无'
+    }
+
+    return (($tagItems | ForEach-Object { '`{0}`' -f $_ }) -join ' ')
+}
+
+function Escape-TableText {
+    param([string]$Text)
+
+    if ($null -eq $Text) {
+        return ''
+    }
+
+    return $Text.Replace('|', '\|').Replace([Environment]::NewLine, '<br>')
+}
+
+function Format-FeaturedEntry {
     param($Entry)
 
     $kindLabel = $entryKindLabels[[string]$Entry.entry_kind]
     $statusLabel = $statusLabels[[string]$Entry.status]
-    $tags = @($Entry.tags) | ForEach-Object { '`{0}`' -f $_ }
-    $tagLine = if ($tags.Count -gt 0) { $tags -join ' ' } else { '无' }
+    $tagLine = Get-CompactTags $Entry.tags
     $stars = Get-StarText $Entry.stars
 
     return @(
@@ -82,6 +102,25 @@ function Format-Entry {
         ('  {0}' -f $Entry.description)
         ('  标签：{0} | Stars：{1}' -f $tagLine, $stars)
     )
+}
+
+function Format-TableRow {
+    param($Entry)
+
+    $kindLabel = $entryKindLabels[[string]$Entry.entry_kind]
+    $statusLabel = $statusLabels[[string]$Entry.status]
+    $typeCell = if ([string]$Entry.status -eq 'active') { $kindLabel } else { '{0} / {1}' -f $kindLabel, $statusLabel }
+    $tagCell = Get-CompactTags $Entry.tags
+    $stars = Get-StarText $Entry.stars
+    $description = Escape-TableText ([string]$Entry.description)
+
+    return ('| [{0}]({1}) | {2} | {3} | {4} | {5} |' -f `
+        $Entry.name,
+        $Entry.repo_url,
+        (Escape-TableText $typeCell),
+        (Escape-TableText $tagCell),
+        (Escape-TableText $stars),
+        $description)
 }
 
 if (-not (Test-Path -LiteralPath $DataPath)) {
@@ -146,7 +185,7 @@ $lines.Add('')
 $lines.Add('第一次来建议先看这些代表性条目。它们只负责导览，不代表完整目录。')
 $lines.Add('')
 foreach ($entry in $featuredEntries) {
-    foreach ($line in (Format-Entry $entry)) {
+    foreach ($line in (Format-FeaturedEntry $entry)) {
         $lines.Add($line)
     }
     $lines.Add('')
@@ -173,12 +212,14 @@ foreach ($category in $categories) {
         continue
     }
 
+    $lines.Add('| 项目 | 类型 | 标签 | Stars | 一句话说明 |')
+    $lines.Add('| --- | --- | --- | --- | --- |')
+
     foreach ($entry in $categoryEntries) {
-        foreach ($line in (Format-Entry $entry)) {
-            $lines.Add($line)
-        }
-        $lines.Add('')
+        $lines.Add((Format-TableRow $entry))
     }
+
+    $lines.Add('')
 }
 
 $lines.Add('## 维护方式')
