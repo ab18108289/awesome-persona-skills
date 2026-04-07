@@ -1,0 +1,83 @@
+name: 推荐新条目
+description: 推荐一个适合收录到目录中的 GitHub 项目
+title: "[推荐] "
+labels:
+  - recommendation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐项目。请尽量基于仓库公开信息填写，避免营销化描述。
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: GitHub 仓库链接
+      description: 请填写完整的 HTTPS GitHub 仓库地址
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: input
+    id: display_name
+    attributes:
+      label: 建议显示名称
+      description: 可填写你认为适合出现在目录中的名字
+      placeholder: 例如：某某.skill
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      options:
+        - 热门网红 / 博主 Skill
+        - 商业人物 / 创业者 Skill
+        - 教育 / 职业导师 Skill
+        - 情感人物 / 关系人格 Skill
+        - 职场角色人格 Skill
+        - 玄学人物 / 神秘人格 Skill
+        - 经典人格 / 自我镜像 Skill
+        - 新收录 / 待观察
+    validations:
+      required: true
+
+  - type: dropdown
+    id: entry_kind
+    attributes:
+      label: 建议条目类型
+      options:
+        - skill
+        - persona_repo
+        - watchlist
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 项目说明
+      description: 用 1-2 句话说明它是谁、为什么贴题、适合放进目录的原因
+      placeholder: 请尽量客观描述，避免广告文案
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 贴题依据
+      description: 可补充仓库中的 README、自述、截图线索或你认为它具备人物感/角色感的理由
+      placeholder: 例如：仓库明确主打数字分身 / 情感陪伴 / 命理角色体验
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我确认这是公开可访问的 GitHub 仓库
+          required: true
+        - label: 我确认它具备人物感、角色感、人格视角或神秘人格体验，不是纯工具仓库
+          required: true

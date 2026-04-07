@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Local agent / browser state
+.gstack/
+
+# Temp and logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Python cache from ad-hoc tooling
+__pycache__/
+*.pyc
