@@ -68,17 +68,6 @@ function Get-StarText {
     return [string]$Stars
 }
 
-function Get-CompactTags {
-    param($Tags)
-
-    $tagItems = @($Tags) | Select-Object -First 3
-    if ($tagItems.Count -eq 0) {
-        return '无'
-    }
-
-    return (($tagItems | ForEach-Object { '`{0}`' -f $_ }) -join ' ')
-}
-
 function Escape-TableText {
     param([string]$Text)
 
@@ -89,36 +78,41 @@ function Escape-TableText {
     return $Text.Replace('|', '\|').Replace([Environment]::NewLine, '<br>')
 }
 
+function Get-DisplayName {
+    param([string]$Name)
+
+    if ([string]::IsNullOrWhiteSpace($Name)) {
+        return ''
+    }
+
+    $displayName = [regex]::Replace($Name, '\.skill', '', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    $displayName = [regex]::Replace($displayName, '\s{2,}', ' ')
+
+    return $displayName.Trim()
+}
+
 function Format-FeaturedEntry {
     param($Entry)
 
-    $kindLabel = $entryKindLabels[[string]$Entry.entry_kind]
-    $statusLabel = $statusLabels[[string]$Entry.status]
-    $tagLine = Get-CompactTags $Entry.tags
+    $displayName = Get-DisplayName ([string]$Entry.name)
     $stars = Get-StarText $Entry.stars
 
     return @(
-        ('- [{0}]({1}) `{2}` `{3}`' -f $Entry.name, $Entry.repo_url, $kindLabel, $statusLabel)
+        ('- [{0}]({1}) | Star: {2}' -f $displayName, $Entry.repo_url, $stars)
         ('  {0}' -f $Entry.description)
-        ('  标签：{0} | Stars：{1}' -f $tagLine, $stars)
     )
 }
 
 function Format-TableRow {
     param($Entry)
 
-    $kindLabel = $entryKindLabels[[string]$Entry.entry_kind]
-    $statusLabel = $statusLabels[[string]$Entry.status]
-    $typeCell = if ([string]$Entry.status -eq 'active') { $kindLabel } else { '{0} / {1}' -f $kindLabel, $statusLabel }
-    $tagCell = Get-CompactTags $Entry.tags
+    $displayName = Get-DisplayName ([string]$Entry.name)
     $stars = Get-StarText $Entry.stars
     $description = Escape-TableText ([string]$Entry.description)
 
-    return ('| [{0}]({1}) | {2} | {3} | {4} | {5} |' -f `
-        $Entry.name,
+    return ('| [{0}]({1}) | {2} | {3} |' -f `
+        $displayName,
         $Entry.repo_url,
-        (Escape-TableText $typeCell),
-        (Escape-TableText $tagCell),
         (Escape-TableText $stars),
         $description)
 }
@@ -132,7 +126,14 @@ if ($entries -isnot [System.Array]) {
     $entries = @($entries)
 }
 
-$featuredEntries = @($entries | Where-Object { $_.featured } | Select-Object -First 8)
+$featuredEntries = @(
+    $entries |
+        Where-Object { $_.status -eq 'active' } |
+        Sort-Object -Property `
+            @{ Expression = { if ($null -eq $_.stars) { -1 } else { [int]$_.stars } }; Descending = $true }, `
+            @{ Expression = { [string]$_.name } } |
+        Select-Object -First 8
+)
 $skillCount = @($entries | Where-Object { $_.entry_kind -eq 'skill' }).Count
 $personaRepoCount = @($entries | Where-Object { $_.entry_kind -eq 'persona_repo' }).Count
 $watchlistCount = @($entries | Where-Object { $_.entry_kind -eq 'watchlist' }).Count
@@ -212,8 +213,8 @@ foreach ($category in $categories) {
         continue
     }
 
-    $lines.Add('| 项目 | 类型 | 标签 | Stars | 一句话说明 |')
-    $lines.Add('| --- | --- | --- | --- | --- |')
+    $lines.Add('| 项目 | Star | 简介 |')
+    $lines.Add('| --- | --- | --- |')
 
     foreach ($entry in $categoryEntries) {
         $lines.Add((Format-TableRow $entry))
