@@ -240,38 +240,6 @@
     "featured": true
   },
   {
-    "name": "前任轻量版",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "角色人格 Skill",
-    "description": "偏数字永生叙事的前任 Skill 版本，适合观察同一题材在不同仓库中的实现差异。",
-    "repo_url": "https://github.com/titanwings/ex-skill",
-    "tags": [
-      "前任",
-      "数字永生",
-      "关系"
-    ],
-    "stars": 777,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
-    "name": "前任.skill 多源版",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "角色人格 Skill",
-    "description": "支持更多聊天和社媒数据源的前任 Skill 版本，适合做多源蒸馏参考。",
-    "repo_url": "https://github.com/perkfly/ex-skill",
-    "tags": [
-      "前任",
-      "多源数据",
-      "关系"
-    ],
-    "stars": 549,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
     "name": "恋恋恋爱插件",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
@@ -299,22 +267,6 @@
       "自托管"
     ],
     "stars": 2066,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "二次元伴侣之魂",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "面向数字伴侣和角色陪伴的沉浸式项目，适合作为恋爱陪伴和二次元人格方向补充。",
-    "repo_url": "https://github.com/jofizcd/Soul-of-Waifu",
-    "tags": [
-      "陪伴",
-      "二次元",
-      "角色扮演"
-    ],
-    "stars": 580,
     "status": "active",
     "entry_kind": "persona_repo",
     "featured": false
@@ -400,22 +352,6 @@
     "featured": true
   },
   {
-    "name": "八字智能体技能",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "角色人格 Skill",
-    "description": "偏工程化的八字计算 Skill，把排盘计算和解释流程拆开，适合做防幻觉命理工具参考。",
-    "repo_url": "https://github.com/gaoxin492/bazi-skill",
-    "tags": [
-      "玄学",
-      "八字",
-      "工程化"
-    ],
-    "stars": 9,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
     "name": "月老·姻缘测算.skill",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "角色人格 Skill",
@@ -464,70 +400,6 @@
     "featured": false
   },
   {
-    "name": "命理智算",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "涵盖八字、紫微斗数、奇门遁甲、塔罗等多种赛博玄学能力的综合型项目。",
-    "repo_url": "https://github.com/hhszzzz/MingAI",
-    "tags": [
-      "玄学",
-      "综合算命",
-      "MCP"
-    ],
-    "stars": 39,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "塔罗占卜.skill",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "角色人格 Skill",
-    "description": "围绕 78 张塔罗牌义和多种牌阵实现的 Agent Skill，适合塔罗娱乐和角色占卜场景。",
-    "repo_url": "https://github.com/daman-ovo-0404/tarot-skill",
-    "tags": [
-      "塔罗",
-      "牌阵",
-      "占卜"
-    ],
-    "stars": 1,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
-    "name": "紫微知道",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "围绕紫微斗数命盘和解读的开源项目，适合命盘类产品和工具型人格方向。",
-    "repo_url": "https://github.com/ruijayfeng/ziwei",
-    "tags": [
-      "紫微斗数",
-      "命盘",
-      "解读"
-    ],
-    "stars": 16,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "智能算命占卜",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "收录八字、塔罗、姓名测分等轻量玩法的 AI 算命项目，适合作为泛玄学补充入口。",
-    "repo_url": "https://github.com/rorojiao/fortune-tools",
-    "tags": [
-      "算命",
-      "塔罗",
-      "轻量"
-    ],
-    "stars": 0,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
     "name": "天机阁",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
@@ -539,22 +411,6 @@
       "系统"
     ],
     "stars": 291,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "周易排盘源码库",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "围绕周易八卦、四柱八字、紫微斗数和奇门遁甲的源码库，适合作为硬核命理底层资料。",
-    "repo_url": "https://github.com/masterai-top/Zhouyi_Eight-Characters_Ziwei-Doushu_Qi-Zheng-Si-Yu_Qi-Men-Dun-Jia_Liu-Liu-Ren_Punishment-and-divina",
-    "tags": [
-      "周易",
-      "排盘",
-      "源码"
-    ],
-    "stars": 32,
     "status": "active",
     "entry_kind": "persona_repo",
     "featured": false
@@ -800,118 +656,6 @@
     "featured": false
   },
   {
-    "name": "八字五行",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Lightweight bazi and wuxing calculator.",
-    "repo_url": "https://github.com/CrystalMarch/bazi",
-    "tags": [
-      "bazi",
-      "wuxing",
-      "fortune"
-    ],
-    "stars": 185,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "八字助手",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Interactive Flask app for bazi evaluation.",
-    "repo_url": "https://github.com/allanpk716/BaziEval",
-    "tags": [
-      "bazi",
-      "flask",
-      "eval"
-    ],
-    "stars": 127,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "八字服务",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "MCP server for bazi information.",
-    "repo_url": "https://github.com/cantian-ai/bazi-mcp",
-    "tags": [
-      "bazi",
-      "mcp",
-      "agent"
-    ],
-    "stars": 355,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "工程八字",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Engineering-oriented bazi repo.",
-    "repo_url": "https://github.com/tinix-ai/tinix-bazi",
-    "tags": [
-      "bazi",
-      "engine",
-      "fortune"
-    ],
-    "stars": 107,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "周易八字大全",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Large repo covering bazi, qimen and related systems.",
-    "repo_url": "https://github.com/alibabama401/I-Ching_BaZi-",
-    "tags": [
-      "yijing",
-      "bazi",
-      "qimen"
-    ],
-    "stars": 15,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "周易八字网页排盘",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Web-based yijing and bazi paipan project.",
-    "repo_url": "https://github.com/taishan6868/I-Ching-Bazi",
-    "tags": [
-      "yijing",
-      "bazi",
-      "web"
-    ],
-    "stars": 5,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "易海八卦",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Modern TypeScript trigram and astrology modules.",
-    "repo_url": "https://github.com/yihai-js/yihai-bagua",
-    "tags": [
-      "bagua",
-      "typescript",
-      "astrology"
-    ],
-    "stars": 2,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
     "name": "智能塔罗占卜",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
@@ -923,86 +667,6 @@
       "fortune"
     ],
     "stars": 735,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "塔罗耳语",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Modern tarot reading experience app.",
-    "repo_url": "https://github.com/J-York/TarotWhisper",
-    "tags": [
-      "tarot",
-      "reading",
-      "web"
-    ],
-    "stars": 29,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "塔罗网页版",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Tarot helper web app.",
-    "repo_url": "https://github.com/uxiaohan/Tarot-Web",
-    "tags": [
-      "tarot",
-      "web",
-      "assistant"
-    ],
-    "stars": 99,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "塔罗机器人插件",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Tarot divination plugin for NoneBot.",
-    "repo_url": "https://github.com/MinatoAquaCrews/nonebot_plugin_tarot",
-    "tags": [
-      "tarot",
-      "nonebot",
-      "plugin"
-    ],
-    "stars": 102,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "塔罗小程序",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "WeChat mini app for tarot divination.",
-    "repo_url": "https://github.com/zhenzhongfu/tarot",
-    "tags": [
-      "tarot",
-      "wechat",
-      "miniapp"
-    ],
-    "stars": 26,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "简易塔罗",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Lightweight tarot project.",
-    "repo_url": "https://github.com/LaoLittle/SimpleTarot",
-    "tags": [
-      "tarot",
-      "simple",
-      "cards"
-    ],
-    "stars": 27,
     "status": "active",
     "entry_kind": "persona_repo",
     "featured": false
@@ -1024,86 +688,6 @@
     "featured": false
   },
   {
-    "name": "紫微斗数网页排盘",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Simple web chart generator for ziwei doushu.",
-    "repo_url": "https://github.com/cubshuang/ZiWeiDouShu",
-    "tags": [
-      "ziwei",
-      "chart",
-      "web"
-    ],
-    "stars": 74,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "奇门排盘",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Online qimen paipan project.",
-    "repo_url": "https://github.com/qfdk/qimen",
-    "tags": [
-      "qimen",
-      "paipan",
-      "fortune"
-    ],
-    "stars": 155,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "奇门排盘库",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Python package for qimen paipan flows.",
-    "repo_url": "https://github.com/kentang2017/kinqimen",
-    "tags": [
-      "qimen",
-      "python",
-      "package"
-    ],
-    "stars": 53,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "紫微服务",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "MCP tool for ziwei analysis.",
-    "repo_url": "https://github.com/SiwuXue/ziwei-mcp",
-    "tags": [
-      "ziwei",
-      "mcp",
-      "analysis"
-    ],
-    "stars": 14,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "云雀奇门",
-    "category": "玄学人物 / 神秘人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "3D-style qimen paipan experience.",
-    "repo_url": "https://github.com/gaojunxin/yunque-qimen",
-    "tags": [
-      "qimen",
-      "3d",
-      "paipan"
-    ],
-    "stars": 49,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
     "name": "她人格引擎",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
@@ -1115,54 +699,6 @@
       "persona"
     ],
     "stars": 187,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "我的虚拟女友",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Chinese virtual girlfriend dataset and chat project.",
-    "repo_url": "https://github.com/guiguili520/my_virtualgirlfriend",
-    "tags": [
-      "girlfriend",
-      "anime",
-      "chat"
-    ],
-    "stars": 1,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "你的二次元伴侣",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "AI waifu and VTuber assistant.",
-    "repo_url": "https://github.com/Z1TK/Your_AI_Waifu",
-    "tags": [
-      "waifu",
-      "vtuber",
-      "assistant"
-    ],
-    "stars": 1,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "茉莉",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Warm AI girlfriend system built with agents.",
-    "repo_url": "https://github.com/acgurl/mori",
-    "tags": [
-      "girlfriend",
-      "companion",
-      "agent"
-    ],
-    "stars": 49,
     "status": "active",
     "entry_kind": "persona_repo",
     "featured": false
@@ -1184,134 +720,6 @@
     "featured": false
   },
   {
-    "name": "聊天老婆",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "ChatGPT-based chatting waifu project.",
-    "repo_url": "https://github.com/cjyaddone/ChatWaifu",
-    "tags": [
-      "waifu",
-      "voice",
-      "chat"
-    ],
-    "stars": 840,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "伴侣",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Local AI character backend and UI.",
-    "repo_url": "https://github.com/HubertKasperek/ai-companion",
-    "tags": [
-      "companion",
-      "local",
-      "character"
-    ],
-    "stars": 63,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "夜爪伴侣",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Open-source AI companion with avatar and memory.",
-    "repo_url": "https://github.com/grimmjoww/nightclaw",
-    "tags": [
-      "companion",
-      "avatar",
-      "memory"
-    ],
-    "stars": 0,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "智能女友（另一版）",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Open source AI girlfriend repo.",
-    "repo_url": "https://github.com/gmongaras/AI_Girlfriend",
-    "tags": [
-      "girlfriend",
-      "waifu",
-      "companion"
-    ],
-    "stars": 130,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "虚拟女友前端",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Frontend for virtual girlfriend experience.",
-    "repo_url": "https://github.com/wass08/r3f-virtual-girlfriend-frontend",
-    "tags": [
-      "girlfriend",
-      "frontend",
-      "character"
-    ],
-    "stars": 151,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "虚拟主播对话",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Character chat with VTuber flavor.",
-    "repo_url": "https://github.com/jerryuhoo/VTuberTalk",
-    "tags": [
-      "vtuber",
-      "chat",
-      "character"
-    ],
-    "stars": 384,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "智能虚拟主播",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "AI virtual streamer for live interaction.",
-    "repo_url": "https://github.com/sandboxdream/AI-Vtuber",
-    "tags": [
-      "vtuber",
-      "streaming",
-      "interaction"
-    ],
-    "stars": 91,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "二次元虚拟主播",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Waifu VTuber for streaming workflows.",
-    "repo_url": "https://github.com/ardha27/AI-Waifu-Vtuber",
-    "tags": [
-      "waifu",
-      "vtuber",
-      "streaming"
-    ],
-    "stars": 1060,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
     "name": "开源大模型虚拟主播",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
@@ -1323,22 +731,6 @@
       "voice"
     ],
     "stars": 6679,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "开源虚拟主播",
-    "category": "情感人物 / 关系人格 Skill",
-    "type": "人格化 AI Repo",
-    "description": "Open virtual idol and VTuber framework.",
-    "repo_url": "https://github.com/1996scarlet/OpenVtuber",
-    "tags": [
-      "vtuber",
-      "idol",
-      "tracking"
-    ],
-    "stars": 953,
     "status": "active",
     "entry_kind": "persona_repo",
     "featured": false
