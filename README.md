@@ -1,4 +1,4 @@
-﻿# 人物 / 角色人格 Skill 图鉴
+﻿# 人物 / 角色人格 Skill 开源合集
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Status](https://img.shields.io/badge/status-curated-blue.svg)
 
@@ -7,13 +7,6 @@
 当前收录：**51** 项 ｜ 标准 Skill：**21** ｜ 人格化 Repo：**23** ｜ 待观察：**7**
 
 > 持续更新中，欢迎通过 Issue / Pull Request 补充新条目。
-
-## 项目介绍
-
-- 定位：做一个 GitHub 原生的大而全目录，而不是短期热榜。
-- 主轴：以国内中文圈的人设 / 角色 / 人格 / 玄学娱乐项目为主，少量补充高辨识度的全球知名人物项目。
-- 数据：`data/skills.json` 是唯一数据源，`README.md` 由脚本从数据生成。
-- 口径：标准 Skill 优先，也收少量高质量人格化 AI repo，但会通过条目类型显式区分。
 
 ## 快速导航
 
