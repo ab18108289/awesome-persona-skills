@@ -116,7 +116,7 @@ $watchlistCount = @($entries | Where-Object { $_.entry_kind -eq 'watchlist' }).C
 
 $lines = New-Object System.Collections.Generic.List[string]
 
-$lines.Add('# 人物 / 角色人格 Skill 图鉴')
+$lines.Add('# 人物 / 角色人格 Skill 开源合集')
 $lines.Add('')
 $lines.Add('![License](https://img.shields.io/badge/license-MIT-green.svg) ![Status](https://img.shields.io/badge/status-curated-blue.svg)')
 $lines.Add('')
@@ -125,13 +125,6 @@ $lines.Add('')
 $lines.Add(("当前收录：**{0}** 项 ｜ 标准 Skill：**{1}** ｜ 人格化 Repo：**{2}** ｜ 待观察：**{3}**" -f $entries.Count, $skillCount, $personaRepoCount, $watchlistCount))
 $lines.Add('')
 $lines.Add('> 持续更新中，欢迎通过 Issue / Pull Request 补充新条目。')
-$lines.Add('')
-$lines.Add('## 项目介绍')
-$lines.Add('')
-$lines.Add('- 定位：做一个 GitHub 原生的大而全目录，而不是短期热榜。')
-$lines.Add('- 主轴：以国内中文圈的人设 / 角色 / 人格 / 玄学娱乐项目为主，少量补充高辨识度的全球知名人物项目。')
-$lines.Add('- 数据：`data/skills.json` 是唯一数据源，`README.md` 由脚本从数据生成。')
-$lines.Add('- 口径：标准 Skill 优先，也收少量高质量人格化 AI repo，但会通过条目类型显式区分。')
 $lines.Add('')
 $lines.Add('## 快速导航')
 $lines.Add('')
