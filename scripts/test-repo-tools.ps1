@@ -90,8 +90,11 @@ try {
     if ($generated -match '\| 项目 \| Star \| 简介 \|') {
         throw 'Generated README should not use category tables.'
     }
-    if ($generated -notmatch '- \[测试老板\]\(https://github\.com/example/test-boss-skill\) - 从老板视角挑方案问题，适合工作复盘。') {
+    if ($generated -notmatch '\[测试老板\]\(https://github\.com/example/test-boss-skill\)') {
         throw 'Generated README is missing the minimal category list item.'
+    }
+    if ($generated -match '从老板视角挑方案问题，适合工作复盘。') {
+        throw 'Generated README should not include per-item descriptions.'
     }
 
     Write-Host 'All repository tool tests passed.' -ForegroundColor Green
