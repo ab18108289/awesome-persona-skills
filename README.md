@@ -4,7 +4,7 @@
 
 > 一个 GitHub 原生目录，持续收集中文圈 Persona / Character / Skill / 数字分身 / 玄学娱乐相关开源项目。
 
-当前收录：**92** 项 ｜ 标准 Skill：**21** ｜ 人格化 Repo：**64** ｜ 待观察：**7**
+当前收录：**54** 项 ｜ 标准 Skill：**17** ｜ 人格化 Repo：**30** ｜ 待观察：**7**
 
 > 持续更新中，欢迎通过 Issue / Pull Request 补充新条目。
 
@@ -74,23 +74,8 @@
 - [前任](https://github.com/therealXiaomanChu/ex-skill)
 - [超级智能体派对](https://github.com/heshengtao/super-agent-party)
 - [赛博老婆](https://github.com/Syan-Lin/CyberWaifu)
-- [二次元虚拟主播](https://github.com/ardha27/AI-Waifu-Vtuber)
-- [开源虚拟主播](https://github.com/1996scarlet/OpenVtuber)
-- [聊天老婆](https://github.com/cjyaddone/ChatWaifu)
-- [前任轻量版](https://github.com/titanwings/ex-skill)
-- [二次元伴侣之魂](https://github.com/jofizcd/Soul-of-Waifu)
-- [前任 多源版](https://github.com/perkfly/ex-skill)
-- [虚拟主播对话](https://github.com/jerryuhoo/VTuberTalk)
 - [她人格引擎](https://github.com/kellyvv/OpenHer)
-- [虚拟女友前端](https://github.com/wass08/r3f-virtual-girlfriend-frontend)
-- [智能女友（另一版）](https://github.com/gmongaras/AI_Girlfriend)
-- [智能虚拟主播](https://github.com/sandboxdream/AI-Vtuber)
-- [伴侣](https://github.com/HubertKasperek/ai-companion)
-- [茉莉](https://github.com/acgurl/mori)
 - [恋恋恋爱插件](https://github.com/oyxning/astrbot-plugin-moremorelove)
-- [你的二次元伴侣](https://github.com/Z1TK/Your_AI_Waifu)
-- [我的虚拟女友](https://github.com/guiguili520/my_virtualgirlfriend)
-- [夜爪伴侣](https://github.com/grimmjoww/nightclaw)
 
 ## 职场角色人格 Skill
 
@@ -109,34 +94,11 @@
 - [八字引擎](https://github.com/china-testing/bazi)
 - [智能塔罗占卜](https://github.com/dreamhunter2333/chatgpt-tarot-divination)
 - [赛博算命](https://github.com/jinchenma94/bazi-skill)
-- [八字服务](https://github.com/cantian-ai/bazi-mcp)
 - [天机阁](https://github.com/starloom/starloom)
 - [紫微智能解读](https://github.com/myCSAI/Ziwei)
 - [奇门遁甲、紫微斗数](https://github.com/FANzR-arch/Numerologist_skills)
-- [八字五行](https://github.com/CrystalMarch/bazi)
-- [奇门排盘](https://github.com/qfdk/qimen)
 - [大师](https://github.com/xr843/Master-skill)
-- [八字助手](https://github.com/allanpk716/BaziEval)
-- [工程八字](https://github.com/tinix-ai/tinix-bazi)
-- [塔罗机器人插件](https://github.com/MinatoAquaCrews/nonebot_plugin_tarot)
-- [塔罗网页版](https://github.com/uxiaohan/Tarot-Web)
-- [紫微斗数网页排盘](https://github.com/cubshuang/ZiWeiDouShu)
-- [奇门排盘库](https://github.com/kentang2017/kinqimen)
-- [云雀奇门](https://github.com/gaojunxin/yunque-qimen)
-- [命理智算](https://github.com/hhszzzz/MingAI)
-- [周易排盘源码库](https://github.com/masterai-top/Zhouyi_Eight-Characters_Ziwei-Doushu_Qi-Zheng-Si-Yu_Qi-Men-Dun-Jia_Liu-Liu-Ren_Punishment-and-divina)
-- [塔罗耳语](https://github.com/J-York/TarotWhisper)
-- [简易塔罗](https://github.com/LaoLittle/SimpleTarot)
-- [塔罗小程序](https://github.com/zhenzhongfu/tarot)
 - [月老·姻缘测算](https://github.com/Ming-H/yinyuan-skills)
-- [紫微知道](https://github.com/ruijayfeng/ziwei)
-- [周易八字大全](https://github.com/alibabama401/I-Ching_BaZi-)
-- [紫微服务](https://github.com/SiwuXue/ziwei-mcp)
-- [八字智能体技能](https://github.com/gaoxin492/bazi-skill)
-- [周易八字网页排盘](https://github.com/taishan6868/I-Ching-Bazi)
-- [易海八卦](https://github.com/yihai-js/yihai-bagua)
-- [塔罗占卜](https://github.com/daman-ovo-0404/tarot-skill)
-- [智能算命占卜](https://github.com/rorojiao/fortune-tools)
 
 ## 经典人格 / 自我镜像 Skill
 
