@@ -91,29 +91,15 @@ function Get-DisplayName {
     return $displayName.Trim()
 }
 
-function Format-FeaturedEntry {
+function Format-ListEntry {
     param($Entry)
 
     $displayName = Get-DisplayName ([string]$Entry.name)
-    $stars = Get-StarText $Entry.stars
+    $description = [string]$Entry.description
 
-    return @(
-        ('- [{0}]({1}) | Star: {2}' -f $displayName, $Entry.repo_url, $stars)
-        ('  {0}' -f $Entry.description)
-    )
-}
-
-function Format-TableRow {
-    param($Entry)
-
-    $displayName = Get-DisplayName ([string]$Entry.name)
-    $stars = Get-StarText $Entry.stars
-    $description = Escape-TableText ([string]$Entry.description)
-
-    return ('| [{0}]({1}) | {2} | {3} |' -f `
+    return ('- [{0}]({1}) - {2}' -f `
         $displayName,
         $Entry.repo_url,
-        (Escape-TableText $stars),
         $description)
 }
 
@@ -126,14 +112,6 @@ if ($entries -isnot [System.Array]) {
     $entries = @($entries)
 }
 
-$featuredEntries = @(
-    $entries |
-        Where-Object { $_.status -eq 'active' } |
-        Sort-Object -Property `
-            @{ Expression = { if ($null -eq $_.stars) { -1 } else { [int]$_.stars } }; Descending = $true }, `
-            @{ Expression = { [string]$_.name } } |
-        Select-Object -First 8
-)
 $skillCount = @($entries | Where-Object { $_.entry_kind -eq 'skill' }).Count
 $personaRepoCount = @($entries | Where-Object { $_.entry_kind -eq 'persona_repo' }).Count
 $watchlistCount = @($entries | Where-Object { $_.entry_kind -eq 'watchlist' }).Count
@@ -159,7 +137,6 @@ $lines.Add('- 口径：标准 Skill 优先，也收少量高质量人格化 AI r
 $lines.Add('')
 $lines.Add('## 快速导航')
 $lines.Add('')
-$lines.Add('- [精选推荐](#精选推荐)')
 foreach ($category in $categories) {
     $lines.Add(("- [{0}](#{1})" -f $category, (Get-Anchor $category)))
 }
@@ -178,17 +155,6 @@ $lines.Add('- 纯工具链、纯 workflow、纯工程脚手架。')
 $lines.Add('- 没有人设叙事、只有功能包装的普通 AI 仓库。')
 $lines.Add('- 与本库主轴无关的泛资源集合。')
 $lines.Add('')
-$lines.Add('## 精选推荐')
-$lines.Add('')
-$lines.Add('第一次来建议先看这些代表性条目。它们只负责导览，不代表完整目录。')
-$lines.Add('')
-foreach ($entry in $featuredEntries) {
-    foreach ($line in (Format-FeaturedEntry $entry)) {
-        $lines.Add($line)
-    }
-    $lines.Add('')
-}
-
 foreach ($category in $categories) {
     $lines.Add(("## {0}" -f $category))
     $lines.Add('')
@@ -199,7 +165,6 @@ foreach ($category in $categories) {
         $entries |
             Where-Object { $_.category -eq $category } |
             Sort-Object -Property `
-                @{ Expression = { if ($_.featured) { 0 } else { 1 } } }, `
                 @{ Expression = { if ($null -eq $_.stars) { -1 } else { [int]$_.stars } }; Descending = $true }, `
                 @{ Expression = { [string]$_.name } }
     )
@@ -210,11 +175,8 @@ foreach ($category in $categories) {
         continue
     }
 
-    $lines.Add('| 项目 | Star | 简介 |')
-    $lines.Add('| --- | --- | --- |')
-
     foreach ($entry in $categoryEntries) {
-        $lines.Add((Format-TableRow $entry))
+        $lines.Add((Format-ListEntry $entry))
     }
 
     $lines.Add('')

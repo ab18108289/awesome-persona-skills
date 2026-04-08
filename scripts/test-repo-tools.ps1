@@ -75,29 +75,23 @@ try {
     }
 
     $generated = Get-Content -LiteralPath $readmePath -Raw -Encoding UTF8
-    if ($generated -notmatch '测试老板') {
-        throw 'Generated README is missing the featured entry.'
-    }
     if ($generated -notmatch '## 职场角色人格 Skill') {
         throw 'Generated README is missing the category heading.'
     }
     if ($generated -match '## 维护方式') {
         throw 'Generated README should not include the maintenance section.'
     }
+    if ($generated -match '## 精选推荐') {
+        throw 'Generated README should not include a featured section.'
+    }
     if ($generated -notmatch '## 补充说明') {
         throw 'Generated README is missing the compact footer section.'
     }
-    if ($generated -notmatch '\| 项目 \| Star \| 简介 \|') {
-        throw 'Generated README is missing the category table header.'
+    if ($generated -match '\| 项目 \| Star \| 简介 \|') {
+        throw 'Generated README should not use category tables.'
     }
-    if ($generated -notmatch '\| \[测试老板\]\(https://github\.com/example/test-boss-skill\) \| 12 \|') {
-        throw 'Generated README is missing the category table row.'
-    }
-    if ($generated -notmatch '- \[测试老板\]\(https://github\.com/example/test-boss-skill\) \| Star: 12') {
-        throw 'Generated README is missing the featured list item.'
-    }
-    if ($generated -notmatch '从老板视角挑方案问题，适合工作复盘。') {
-        throw 'Generated README should keep the featured summary.'
+    if ($generated -notmatch '- \[测试老板\]\(https://github\.com/example/test-boss-skill\) - 从老板视角挑方案问题，适合工作复盘。') {
+        throw 'Generated README is missing the minimal category list item.'
     }
 
     Write-Host 'All repository tool tests passed.' -ForegroundColor Green
