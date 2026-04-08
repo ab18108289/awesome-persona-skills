@@ -84,6 +84,9 @@ try {
     if ($generated -match '## 精选推荐') {
         throw 'Generated README should not include a featured section.'
     }
+    if ($generated -match '## 项目介绍') {
+        throw 'Generated README should not include the project intro section.'
+    }
     if ($generated -notmatch '## 补充说明') {
         throw 'Generated README is missing the compact footer section.'
     }
