@@ -1,6 +1,6 @@
 [
   {
-    "name": "花叔 Skills 合集",
+    "name": "花叔技能合集",
     "category": "热门网红 / 博主 Skill",
     "type": "真实人物 Skill",
     "description": "围绕花叔内容创作方法和表达风格整理的 Skills 合集，适合内容选题、脚本和表达风格参考。",
@@ -16,7 +16,7 @@
     "featured": true
   },
   {
-    "name": "宝玉 Skills 合集",
+    "name": "宝玉技能合集",
     "category": "热门网红 / 博主 Skill",
     "type": "真实人物 Skill",
     "description": "以宝玉个人工作流和内容产出为核心的技能集合，适合观察强个人品牌型 Skill 仓库如何组织。",
@@ -64,7 +64,7 @@
     "featured": false
   },
   {
-    "name": "Auto Redbook Skills",
+    "name": "自动小红书技能集",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "围绕小红书笔记自动撰写、配图和发布的 Skills 项目，适合作为创作者内容工作流方向样本。",
@@ -176,7 +176,7 @@
     "featured": false
   },
   {
-    "name": "Skill from Masters",
+    "name": "大师方法论合集",
     "category": "商业人物 / 创业者 Skill",
     "type": "人格化 AI Repo",
     "description": "把多位领域大师的方法论抽象成可复用 Skill，适合做大师方法论目录的补充入口。",
@@ -208,7 +208,7 @@
     "featured": true
   },
   {
-    "name": "GenMentor",
+    "name": "导师智囊",
     "category": "教育 / 职业导师 Skill",
     "type": "人格化 AI Repo",
     "description": "以导师式多智能体辅学为核心的项目，适合观察 AI 导师和学习路径规划方向。",
@@ -224,7 +224,7 @@
     "featured": false
   },
   {
-    "name": "Socratic Tutor Generator",
+    "name": "苏格拉底导师生成器",
     "category": "教育 / 职业导师 Skill",
     "type": "人格化 AI Repo",
     "description": "把静态材料转成苏格拉底式 tutor 的项目，适合收录到导师型和学习陪练方向。",
@@ -272,7 +272,7 @@
     "featured": true
   },
   {
-    "name": "前任.skill Lite",
+    "name": "前任轻量版",
     "category": "情感人物 / 关系人格 Skill",
     "type": "角色人格 Skill",
     "description": "偏数字永生叙事的前任 Skill 版本，适合观察同一题材在不同仓库中的实现差异。",
@@ -320,7 +320,7 @@
     "featured": false
   },
   {
-    "name": "Super Agent Party",
+    "name": "超级智能体派对",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "主打全能 AI 伴侣和角色陪伴体验的自托管项目，适合作为情绪陪伴和 companion 方向样本。",
@@ -336,7 +336,7 @@
     "featured": false
   },
   {
-    "name": "Soul of Waifu",
+    "name": "二次元伴侣之魂",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "面向数字伴侣和角色陪伴的沉浸式项目，适合作为恋爱陪伴和二次元人格方向补充。",
@@ -400,7 +400,7 @@
     "featured": false
   },
   {
-    "name": "InterviewerGPT",
+    "name": "私人面试官",
     "category": "职场角色人格 Skill",
     "type": "人格化 AI Repo",
     "description": "你的 AI 私人面试官，适合练习问答、模拟压力面和求职准备。",
@@ -432,7 +432,7 @@
     "featured": true
   },
   {
-    "name": "八字 Agent Skill",
+    "name": "八字智能体技能",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "角色人格 Skill",
     "description": "偏工程化的八字计算 Skill，把排盘计算和解释流程拆开，适合做防幻觉命理工具参考。",
@@ -496,7 +496,7 @@
     "featured": false
   },
   {
-    "name": "MingAI",
+    "name": "命理智算",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "涵盖八字、紫微斗数、奇门遁甲、塔罗等多种赛博玄学能力的综合型项目。",
@@ -544,7 +544,7 @@
     "featured": false
   },
   {
-    "name": "AI算命占卜",
+    "name": "智能算命占卜",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "收录八字、塔罗、姓名测分等轻量玩法的 AI 算命项目，适合作为泛玄学补充入口。",
@@ -640,7 +640,7 @@
     "featured": false
   },
   {
-    "name": "Second Me",
+    "name": "第二个我",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "面向“训练 AI 自己”的高热度项目，适合作为自我镜像和数字身份方向的重要样本。",
@@ -656,7 +656,7 @@
     "featured": false
   },
   {
-    "name": "OpenPersona",
+    "name": "开放人格框架",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "四层 AI Persona 框架，适合作为人格化项目的结构化参考样本。",
@@ -672,7 +672,7 @@
     "featured": false
   },
   {
-    "name": "Qing Digital Self",
+    "name": "青数字自我",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "从对话数据到训练闭环的数字分身项目，适合作为镜像人格训练路线样本。",
@@ -688,7 +688,7 @@
     "featured": false
   },
   {
-    "name": "EdgePersona",
+    "name": "边缘人格",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "强调全本地、低算力和离线运行的智能数字人项目，适合作为本地人格化方向样本。",
@@ -720,7 +720,7 @@
     "featured": false
   },
   {
-    "name": "TeacherGPT",
+    "name": "教师人格助手",
     "category": "新收录 / 待观察",
     "type": "人格化 AI Repo",
     "description": "用 prompt 生成不同学科教师人格的项目，方向贴题，但更接近 prompt persona 集合。",
@@ -752,7 +752,7 @@
     "featured": false
   },
   {
-    "name": "GirlfriendGPT",
+    "name": "女友对话助手",
     "category": "新收录 / 待观察",
     "type": "人格化 AI Repo",
     "description": "围绕 AI 女友体验的项目，题材贴近情绪消费，但形态更像通用陪伴应用。",
@@ -768,7 +768,7 @@
     "featured": false
   },
   {
-    "name": "AI Girlfriend",
+    "name": "智能女友",
     "category": "新收录 / 待观察",
     "type": "人格化 AI Repo",
     "description": "偏虚拟伴侣方向的项目，和本库主轴相关，但人设边界还需要继续观察。",
@@ -784,7 +784,7 @@
     "featured": false
   },
   {
-    "name": "CEO Skill 集合",
+    "name": "总裁技能集合",
     "category": "新收录 / 待观察",
     "type": "人格化 AI Repo",
     "description": "包含 ceo-skill 等条目的技能集合仓库，和职场角色方向相关，但整体仍偏工具合集。",
@@ -800,7 +800,7 @@
     "featured": false
   },
   {
-    "name": "HER",
+    "name": "她",
     "category": "新收录 / 待观察",
     "type": "人格化 AI Repo",
     "description": "关注角色模拟与情绪推理的项目，偏框架研究路线，先收录到待观察区。",
@@ -816,7 +816,7 @@
     "featured": false
   },
   {
-    "name": "Bazi Engine",
+    "name": "八字引擎",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Traditional bazi and fortune engine repo.",
@@ -832,7 +832,7 @@
     "featured": false
   },
   {
-    "name": "Bazi Wuxing",
+    "name": "八字五行",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Lightweight bazi and wuxing calculator.",
@@ -848,7 +848,7 @@
     "featured": false
   },
   {
-    "name": "BaziHelper",
+    "name": "八字助手",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Interactive Flask app for bazi evaluation.",
@@ -864,7 +864,7 @@
     "featured": false
   },
   {
-    "name": "Bazi MCP",
+    "name": "八字服务",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "MCP server for bazi information.",
@@ -880,7 +880,7 @@
     "featured": false
   },
   {
-    "name": "Tinix Bazi",
+    "name": "工程八字",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Engineering-oriented bazi repo.",
@@ -896,7 +896,7 @@
     "featured": false
   },
   {
-    "name": "I Ching Bazi",
+    "name": "周易八字大全",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Large repo covering bazi, qimen and related systems.",
@@ -912,7 +912,7 @@
     "featured": false
   },
   {
-    "name": "I Ching Bazi Web",
+    "name": "周易八字网页排盘",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Web-based yijing and bazi paipan project.",
@@ -928,7 +928,7 @@
     "featured": false
   },
   {
-    "name": "Yihai Bagua",
+    "name": "易海八卦",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Modern TypeScript trigram and astrology modules.",
@@ -944,7 +944,7 @@
     "featured": false
   },
   {
-    "name": "AI Tarot Divination",
+    "name": "智能塔罗占卜",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Popular AI tarot and divination playground.",
@@ -960,7 +960,7 @@
     "featured": false
   },
   {
-    "name": "TarotWhisper",
+    "name": "塔罗耳语",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Modern tarot reading experience app.",
@@ -976,7 +976,7 @@
     "featured": false
   },
   {
-    "name": "Tarot Web",
+    "name": "塔罗网页版",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Tarot helper web app.",
@@ -992,7 +992,7 @@
     "featured": false
   },
   {
-    "name": "NoneBot Tarot",
+    "name": "塔罗机器人插件",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Tarot divination plugin for NoneBot.",
@@ -1008,7 +1008,7 @@
     "featured": false
   },
   {
-    "name": "Tarot Mini Program",
+    "name": "塔罗小程序",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "WeChat mini app for tarot divination.",
@@ -1024,7 +1024,7 @@
     "featured": false
   },
   {
-    "name": "SimpleTarot",
+    "name": "简易塔罗",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Lightweight tarot project.",
@@ -1040,7 +1040,7 @@
     "featured": false
   },
   {
-    "name": "Ziwei AI",
+    "name": "紫微智能解读",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "LLM-tuned ziwei and fortune project.",
@@ -1056,7 +1056,7 @@
     "featured": false
   },
   {
-    "name": "ZiWeiDouShu Web",
+    "name": "紫微斗数网页排盘",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Simple web chart generator for ziwei doushu.",
@@ -1072,7 +1072,7 @@
     "featured": false
   },
   {
-    "name": "Qimen Paipan",
+    "name": "奇门排盘",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Online qimen paipan project.",
@@ -1088,7 +1088,7 @@
     "featured": false
   },
   {
-    "name": "Kinqimen",
+    "name": "奇门排盘库",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Python package for qimen paipan flows.",
@@ -1104,7 +1104,7 @@
     "featured": false
   },
   {
-    "name": "Ziwei MCP",
+    "name": "紫微服务",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "MCP tool for ziwei analysis.",
@@ -1120,7 +1120,7 @@
     "featured": false
   },
   {
-    "name": "Yunque Qimen",
+    "name": "云雀奇门",
     "category": "玄学人物 / 神秘人格 Skill",
     "type": "人格化 AI Repo",
     "description": "3D-style qimen paipan experience.",
@@ -1136,7 +1136,7 @@
     "featured": false
   },
   {
-    "name": "OpenHer",
+    "name": "她人格引擎",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Persona engine inspired by Her.",
@@ -1152,7 +1152,7 @@
     "featured": false
   },
   {
-    "name": "My Virtual Girlfriend",
+    "name": "我的虚拟女友",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Chinese virtual girlfriend dataset and chat project.",
@@ -1168,7 +1168,7 @@
     "featured": false
   },
   {
-    "name": "Your AI Waifu",
+    "name": "你的二次元伴侣",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "AI waifu and VTuber assistant.",
@@ -1184,7 +1184,7 @@
     "featured": false
   },
   {
-    "name": "Mori",
+    "name": "茉莉",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Warm AI girlfriend system built with agents.",
@@ -1200,7 +1200,7 @@
     "featured": false
   },
   {
-    "name": "CyberWaifu",
+    "name": "赛博老婆",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Realistic chat waifu with TTS.",
@@ -1216,7 +1216,7 @@
     "featured": false
   },
   {
-    "name": "ChatWaifu",
+    "name": "聊天老婆",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "ChatGPT-based chatting waifu project.",
@@ -1232,7 +1232,7 @@
     "featured": false
   },
   {
-    "name": "AI Companion",
+    "name": "智能伴侣",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Local AI character backend and UI.",
@@ -1248,7 +1248,7 @@
     "featured": false
   },
   {
-    "name": "NightClaw",
+    "name": "夜爪伴侣",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Open-source AI companion with avatar and memory.",
@@ -1264,7 +1264,7 @@
     "featured": false
   },
   {
-    "name": "AI Girlfriend (gmongaras)",
+    "name": "智能女友（另一版）",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Open source AI girlfriend repo.",
@@ -1280,7 +1280,7 @@
     "featured": false
   },
   {
-    "name": "Virtual Girlfriend Frontend",
+    "name": "虚拟女友前端",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Frontend for virtual girlfriend experience.",
@@ -1296,7 +1296,7 @@
     "featured": false
   },
   {
-    "name": "VTuberTalk",
+    "name": "虚拟主播对话",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Character chat with VTuber flavor.",
@@ -1312,7 +1312,7 @@
     "featured": false
   },
   {
-    "name": "AI VTuber",
+    "name": "智能虚拟主播",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "AI virtual streamer for live interaction.",
@@ -1328,7 +1328,7 @@
     "featured": false
   },
   {
-    "name": "AI Waifu VTuber",
+    "name": "二次元虚拟主播",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Waifu VTuber for streaming workflows.",
@@ -1344,7 +1344,7 @@
     "featured": false
   },
   {
-    "name": "Open LLM VTuber",
+    "name": "开源大模型虚拟主播",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "High-profile local LLM VTuber stack.",
@@ -1360,7 +1360,7 @@
     "featured": false
   },
   {
-    "name": "OpenVtuber",
+    "name": "开源虚拟主播",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Open virtual idol and VTuber framework.",
@@ -1376,7 +1376,7 @@
     "featured": false
   },
   {
-    "name": "Xiaohongshu Skills Library",
+    "name": "小红书技能库",
     "category": "热门网红 / 博主 Skill",
     "type": "角色人格 Skill",
     "description": "Operational skill library for Xiaohongshu creators.",
@@ -1392,7 +1392,7 @@
     "featured": false
   },
   {
-    "name": "XiaohongshuSkills",
+    "name": "小红书自动运营技能",
     "category": "热门网红 / 博主 Skill",
     "type": "角色人格 Skill",
     "description": "Popular Xiaohongshu posting and comment skill set.",
@@ -1408,7 +1408,7 @@
     "featured": false
   },
   {
-    "name": "Xiaohongshu Extract Skill",
+    "name": "小红书抓取技能",
     "category": "热门网红 / 博主 Skill",
     "type": "角色人格 Skill",
     "description": "Playwright-based Xiaohongshu extraction skill.",
@@ -1424,7 +1424,7 @@
     "featured": false
   },
   {
-    "name": "Autoclaw Xiaohongshu Skills",
+    "name": "小红书技能集",
     "category": "热门网红 / 博主 Skill",
     "type": "角色人格 Skill",
     "description": "Skill bundle for Xiaohongshu creation workflow.",
@@ -1440,7 +1440,7 @@
     "featured": false
   },
   {
-    "name": "XHS Toolkit",
+    "name": "小红书工具箱",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "MCP toolkit for Xiaohongshu creators.",
@@ -1456,7 +1456,7 @@
     "featured": false
   },
   {
-    "name": "Xiaohongshu MCP",
+    "name": "小红书服务",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "High-profile MCP bridge for Xiaohongshu.",
@@ -1472,7 +1472,7 @@
     "featured": false
   },
   {
-    "name": "RedInk",
+    "name": "红书图文生成器",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "Image and text generator for Xiaohongshu posts.",
@@ -1488,7 +1488,7 @@
     "featured": false
   },
   {
-    "name": "redbook CLI",
+    "name": "红书命令行工具",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "CLI for Xiaohongshu search and analysis.",
@@ -1504,7 +1504,7 @@
     "featured": false
   },
   {
-    "name": "RedNote MCP",
+    "name": "红书服务",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "MCP server for RedNote and Xiaohongshu access.",
@@ -1520,7 +1520,7 @@
     "featured": false
   },
   {
-    "name": "Xiaohongshu CLI",
+    "name": "小红书命令行工具",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "CLI for Xiaohongshu reading and interaction.",
@@ -1536,7 +1536,7 @@
     "featured": false
   },
   {
-    "name": "WeClone",
+    "name": "聊天记录分身",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "High-profile AI twin from chat history.",
@@ -1552,7 +1552,7 @@
     "featured": false
   },
   {
-    "name": "DigitalMyself",
+    "name": "数字化自我",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "Small digital self project.",
@@ -1568,7 +1568,7 @@
     "featured": false
   },
   {
-    "name": "AI Digital Doppelganger",
+    "name": "数字替身",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "Multimodal personal AI twin project.",
@@ -1584,7 +1584,7 @@
     "featured": false
   },
   {
-    "name": "Interviewer",
+    "name": "模拟面试官",
     "category": "职场角色人格 Skill",
     "type": "人格化 AI Repo",
     "description": "AI interviewer project for mock interviews.",
@@ -1600,7 +1600,7 @@
     "featured": false
   },
   {
-    "name": "AI Career Coach",
+    "name": "智能职业教练",
     "category": "教育 / 职业导师 Skill",
     "type": "人格化 AI Repo",
     "description": "Full-stack AI career coach repo.",
