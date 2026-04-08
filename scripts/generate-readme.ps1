@@ -95,12 +95,10 @@ function Format-ListEntry {
     param($Entry)
 
     $displayName = Get-DisplayName ([string]$Entry.name)
-    $description = [string]$Entry.description
 
-    return ('- [{0}]({1}) - {2}' -f `
+    return ('- [{0}]({1})' -f `
         $displayName,
-        $Entry.repo_url,
-        $description)
+        $Entry.repo_url)
 }
 
 if (-not (Test-Path -LiteralPath $DataPath)) {
