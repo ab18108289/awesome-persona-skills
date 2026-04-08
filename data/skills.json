@@ -1,6 +1,6 @@
 [
   {
-    "name": "花叔技能合集",
+    "name": "花叔",
     "category": "热门网红 / 博主 Skill",
     "type": "真实人物 Skill",
     "description": "围绕花叔内容创作方法和表达风格整理的 Skills 合集，适合内容选题、脚本和表达风格参考。",
@@ -16,7 +16,7 @@
     "featured": true
   },
   {
-    "name": "宝玉技能合集",
+    "name": "宝玉",
     "category": "热门网红 / 博主 Skill",
     "type": "真实人物 Skill",
     "description": "以宝玉个人工作流和内容产出为核心的技能集合，适合观察强个人品牌型 Skill 仓库如何组织。",
@@ -29,22 +29,6 @@
     "stars": 13490,
     "status": "active",
     "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "小红书运营助手.skill",
-    "category": "热门网红 / 博主 Skill",
-    "type": "角色人格 Skill",
-    "description": "把 OpenClaw 变成小红书运营助手，适合选题、创作、复盘和博主内容托管方向。",
-    "repo_url": "https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill",
-    "tags": [
-      "小红书",
-      "博主",
-      "运营"
-    ],
-    "stars": 1419,
-    "status": "active",
-    "entry_kind": "skill",
     "featured": false
   },
   {
@@ -61,22 +45,6 @@
     "stars": 0,
     "status": "active",
     "entry_kind": "skill",
-    "featured": false
-  },
-  {
-    "name": "自动小红书技能集",
-    "category": "热门网红 / 博主 Skill",
-    "type": "人格化 AI Repo",
-    "description": "围绕小红书笔记自动撰写、配图和发布的 Skills 项目，适合作为创作者内容工作流方向样本。",
-    "repo_url": "https://github.com/comeonzhj/Auto-Redbook-Skills",
-    "tags": [
-      "小红书",
-      "创作者",
-      "内容工作流"
-    ],
-    "stars": 1575,
-    "status": "active",
-    "entry_kind": "persona_repo",
     "featured": false
   },
   {
@@ -176,7 +144,7 @@
     "featured": false
   },
   {
-    "name": "大师方法论合集",
+    "name": "大师方法论",
     "category": "商业人物 / 创业者 Skill",
     "type": "人格化 AI Repo",
     "description": "把多位领域大师的方法论抽象成可复用 Skill，适合做大师方法论目录的补充入口。",
@@ -1232,7 +1200,7 @@
     "featured": false
   },
   {
-    "name": "智能伴侣",
+    "name": "伴侣",
     "category": "情感人物 / 关系人格 Skill",
     "type": "人格化 AI Repo",
     "description": "Local AI character backend and UI.",
@@ -1376,23 +1344,7 @@
     "featured": false
   },
   {
-    "name": "小红书技能库",
-    "category": "热门网红 / 博主 Skill",
-    "type": "角色人格 Skill",
-    "description": "Operational skill library for Xiaohongshu creators.",
-    "repo_url": "https://github.com/vivy-yi/xiaohongshu-skills",
-    "tags": [
-      "xiaohongshu",
-      "creator",
-      "skills"
-    ],
-    "stars": 79,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
-    "name": "小红书自动运营技能",
+    "name": "小红书运营",
     "category": "热门网红 / 博主 Skill",
     "type": "角色人格 Skill",
     "description": "Popular Xiaohongshu posting and comment skill set.",
@@ -1408,55 +1360,7 @@
     "featured": false
   },
   {
-    "name": "小红书抓取技能",
-    "category": "热门网红 / 博主 Skill",
-    "type": "角色人格 Skill",
-    "description": "Playwright-based Xiaohongshu extraction skill.",
-    "repo_url": "https://github.com/DeliciousBuding/xiaohongshu-skill",
-    "tags": [
-      "xiaohongshu",
-      "extract",
-      "skill"
-    ],
-    "stars": 9,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
-    "name": "小红书技能集",
-    "category": "热门网红 / 博主 Skill",
-    "type": "角色人格 Skill",
-    "description": "Skill bundle for Xiaohongshu creation workflow.",
-    "repo_url": "https://github.com/autoclaw-cc/xiaohongshu-skills",
-    "tags": [
-      "xiaohongshu",
-      "creation",
-      "skills"
-    ],
-    "stars": 969,
-    "status": "active",
-    "entry_kind": "skill",
-    "featured": false
-  },
-  {
-    "name": "小红书工具箱",
-    "category": "热门网红 / 博主 Skill",
-    "type": "人格化 AI Repo",
-    "description": "MCP toolkit for Xiaohongshu creators.",
-    "repo_url": "https://github.com/aki66938/xhs-toolkit",
-    "tags": [
-      "xiaohongshu",
-      "mcp",
-      "creator"
-    ],
-    "stars": 1228,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "小红书服务",
+    "name": "小红书MCP",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "High-profile MCP bridge for Xiaohongshu.",
@@ -1472,7 +1376,7 @@
     "featured": false
   },
   {
-    "name": "红书图文生成器",
+    "name": "红书图文",
     "category": "热门网红 / 博主 Skill",
     "type": "人格化 AI Repo",
     "description": "Image and text generator for Xiaohongshu posts.",
@@ -1488,55 +1392,7 @@
     "featured": false
   },
   {
-    "name": "红书命令行工具",
-    "category": "热门网红 / 博主 Skill",
-    "type": "人格化 AI Repo",
-    "description": "CLI for Xiaohongshu search and analysis.",
-    "repo_url": "https://github.com/lucasygu/redbook",
-    "tags": [
-      "xiaohongshu",
-      "cli",
-      "analysis"
-    ],
-    "stars": 215,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "红书服务",
-    "category": "热门网红 / 博主 Skill",
-    "type": "人格化 AI Repo",
-    "description": "MCP server for RedNote and Xiaohongshu access.",
-    "repo_url": "https://github.com/iFurySt/RedNote-MCP",
-    "tags": [
-      "rednote",
-      "xiaohongshu",
-      "mcp"
-    ],
-    "stars": 1034,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "小红书命令行工具",
-    "category": "热门网红 / 博主 Skill",
-    "type": "人格化 AI Repo",
-    "description": "CLI for Xiaohongshu reading and interaction.",
-    "repo_url": "https://github.com/jackwener/xiaohongshu-cli",
-    "tags": [
-      "xiaohongshu",
-      "cli",
-      "creator"
-    ],
-    "stars": 1562,
-    "status": "active",
-    "entry_kind": "persona_repo",
-    "featured": false
-  },
-  {
-    "name": "聊天记录分身",
+    "name": "聊天分身",
     "category": "经典人格 / 自我镜像 Skill",
     "type": "人格化 AI Repo",
     "description": "High-profile AI twin from chat history.",
@@ -1584,7 +1440,7 @@
     "featured": false
   },
   {
-    "name": "模拟面试官",
+    "name": "面试官",
     "category": "职场角色人格 Skill",
     "type": "人格化 AI Repo",
     "description": "AI interviewer project for mock interviews.",
@@ -1600,7 +1456,7 @@
     "featured": false
   },
   {
-    "name": "智能职业教练",
+    "name": "职业教练",
     "category": "教育 / 职业导师 Skill",
     "type": "人格化 AI Repo",
     "description": "Full-stack AI career coach repo.",
