@@ -4,7 +4,7 @@
 
 > 一个 GitHub 原生目录，持续收集中文圈 Persona / Character / Skill / 数字分身 / 玄学娱乐相关开源项目。
 
-当前收录：**101** 项 ｜ 标准 Skill：**25** ｜ 人格化 Repo：**69** ｜ 待观察：**7**
+当前收录：**92** 项 ｜ 标准 Skill：**21** ｜ 人格化 Repo：**64** ｜ 待观察：**7**
 
 > 持续更新中，欢迎通过 Issue / Pull Request 补充新条目。
 
@@ -37,27 +37,18 @@
 
 围绕中文互联网博主、创作者与高辨识度内容人格的项目。
 
-- [宝玉技能合集](https://github.com/JimLiu/baoyu-skills)
-- [小红书服务](https://github.com/xpzouying/xiaohongshu-mcp)
-- [红书图文生成器](https://github.com/HisMax/RedInk)
-- [小红书自动运营技能](https://github.com/white0dew/XiaohongshuSkills)
-- [自动小红书技能集](https://github.com/comeonzhj/Auto-Redbook-Skills)
-- [小红书命令行工具](https://github.com/jackwener/xiaohongshu-cli)
-- [小红书运营助手](https://github.com/Xiangyu-CAS/xiaohongshu-ops-skill)
-- [小红书工具箱](https://github.com/aki66938/xhs-toolkit)
-- [红书服务](https://github.com/iFurySt/RedNote-MCP)
-- [小红书技能集](https://github.com/autoclaw-cc/xiaohongshu-skills)
-- [红书命令行工具](https://github.com/lucasygu/redbook)
-- [花叔技能合集](https://github.com/alchaincyf/huashu-skills)
-- [小红书技能库](https://github.com/vivy-yi/xiaohongshu-skills)
-- [小红书抓取技能](https://github.com/DeliciousBuding/xiaohongshu-skill)
+- [宝玉](https://github.com/JimLiu/baoyu-skills)
+- [小红书MCP](https://github.com/xpzouying/xiaohongshu-mcp)
+- [红书图文](https://github.com/HisMax/RedInk)
+- [小红书运营](https://github.com/white0dew/XiaohongshuSkills)
+- [花叔](https://github.com/alchaincyf/huashu-skills)
 - [MrBeast](https://github.com/alchaincyf/mrbeast-skill)
 
 ## 商业人物 / 创业者 Skill
 
 围绕创业者、投资人、产品人和商业判断框架的人设型项目。
 
-- [大师方法论合集](https://github.com/GBSOSS/skill-from-masters)
+- [大师方法论](https://github.com/GBSOSS/skill-from-masters)
 - [乔布斯](https://github.com/alchaincyf/steve-jobs-skill)
 - [芒格](https://github.com/alchaincyf/munger-skill)
 - [纳瓦尔](https://github.com/alchaincyf/naval-skill)
@@ -69,7 +60,7 @@
 
 围绕教学、学习陪练、职业辅导与导师风格的人格化项目。
 
-- [智能职业教练](https://github.com/piyush-eon/ai-career-coach)
+- [职业教练](https://github.com/piyush-eon/ai-career-coach)
 - [导师智囊](https://github.com/GeminiLight/gen-mentor)
 - [豫唐教师助手](https://github.com/tcshowhand/teacher)
 - [费曼](https://github.com/alchaincyf/feynman-skill)
@@ -94,7 +85,7 @@
 - [虚拟女友前端](https://github.com/wass08/r3f-virtual-girlfriend-frontend)
 - [智能女友（另一版）](https://github.com/gmongaras/AI_Girlfriend)
 - [智能虚拟主播](https://github.com/sandboxdream/AI-Vtuber)
-- [智能伴侣](https://github.com/HubertKasperek/ai-companion)
+- [伴侣](https://github.com/HubertKasperek/ai-companion)
 - [茉莉](https://github.com/acgurl/mori)
 - [恋恋恋爱插件](https://github.com/oyxning/astrbot-plugin-moremorelove)
 - [你的二次元伴侣](https://github.com/Z1TK/Your_AI_Waifu)
@@ -106,7 +97,7 @@
 围绕老板、同事、CEO、面试官等工作场景角色的项目。
 
 - [同事](https://github.com/titanwings/colleague-skill)
-- [模拟面试官](https://github.com/wxlvip/Interviewer)
+- [面试官](https://github.com/wxlvip/Interviewer)
 - [智能面试官](https://github.com/xgwangdl/AI-Interview)
 - [老板](https://github.com/nicepkg/boss-skill)
 - [私人面试官](https://github.com/shaokeyibb/InterviewerGPT)
@@ -151,7 +142,7 @@
 
 围绕数字分身、自我镜像、人格框架和认知蒸馏的项目。
 
-- [聊天记录分身](https://github.com/xming521/WeClone)
+- [聊天分身](https://github.com/xming521/WeClone)
 - [第二个我](https://github.com/Mindverse/Second-Me)
 - [女娲](https://github.com/alchaincyf/nuwa-skill)
 - [自己](https://github.com/notdog1998/yourself-skill)
