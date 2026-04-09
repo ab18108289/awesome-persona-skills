@@ -90,14 +90,17 @@ try {
     if ($generated -notmatch '## 补充说明') {
         throw 'Generated README is missing the compact footer section.'
     }
-    if ($generated -match '\| 项目 \| Star \| 简介 \|') {
-        throw 'Generated README should not use category tables.'
+    if ($generated -notmatch '\| 名字 \| Star \| 简介 \|') {
+        throw 'Generated README should use category tables.'
     }
-    if ($generated -notmatch '\[测试老板\]\(https://github\.com/example/test-boss-skill\)') {
-        throw 'Generated README is missing the minimal category list item.'
+    if ($generated -match '(?m)^- \[测试老板\]\(https://github\.com/example/test-boss-skill\)') {
+        throw 'Generated README should not use the old bullet-list item format.'
     }
-    if ($generated -match '从老板视角挑方案问题，适合工作复盘。') {
-        throw 'Generated README should not include per-item descriptions.'
+    if ($generated -notmatch '\| \[测试老板\]\(https://github\.com/example/test-boss-skill\) \| 12 \| 从老板视角挑方案问题，适合工作复盘。 \|') {
+        throw 'Generated README is missing the expected table row.'
+    }
+    if ($generated -match '(?m)^- \[测试老板\]\(https://github\.com/example/test-boss-skill\).+从老板视角挑方案问题，适合工作复盘。') {
+        throw 'Generated README should not keep the old bullet-list description format.'
     }
 
     Write-Host 'All repository tool tests passed.' -ForegroundColor Green

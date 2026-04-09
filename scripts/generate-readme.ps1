@@ -95,10 +95,40 @@ function Format-ListEntry {
     param($Entry)
 
     $displayName = Get-DisplayName ([string]$Entry.name)
+    $stars = if ($null -eq $Entry.stars) { 'N/A' } else { [string]$Entry.stars }
 
-    return ('- [{0}]({1})' -f `
+    return ('- [{0}]({1}) | Star: {2}' -f `
         $displayName,
-        $Entry.repo_url)
+        $Entry.repo_url,
+        $stars)
+}
+
+function Escape-TableText {
+    param([string]$Text)
+
+    if ($null -eq $Text) {
+        return ''
+    }
+
+    $value = $Text.Replace('|', '\|')
+    $value = $value.Replace("`r", ' ')
+    $value = $value.Replace("`n", ' ')
+    $value = [regex]::Replace($value, '\s{2,}', ' ')
+    return $value.Trim()
+}
+
+function Format-TableRow {
+    param($Entry)
+
+    $displayName = Get-DisplayName ([string]$Entry.name)
+    $stars = if ($null -eq $Entry.stars) { 'N/A' } else { [string]$Entry.stars }
+    $description = Escape-TableText ([string]$Entry.description)
+
+    return ('| [{0}]({1}) | {2} | {3} |' -f `
+        $displayName,
+        $Entry.repo_url,
+        $stars,
+        $description)
 }
 
 if (-not (Test-Path -LiteralPath $DataPath)) {
@@ -166,8 +196,11 @@ foreach ($category in $categories) {
         continue
     }
 
+    $lines.Add('| 名字 | Star | 简介 |')
+    $lines.Add('| --- | ---: | --- |')
+
     foreach ($entry in $categoryEntries) {
-        $lines.Add((Format-ListEntry $entry))
+        $lines.Add((Format-TableRow $entry))
     }
 
     $lines.Add('')
